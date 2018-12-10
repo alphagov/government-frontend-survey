@@ -62,5 +62,6 @@ typings/
 
 # Don't cache actual responses since they contain potentially identifiably personal information
 responses.csv
+responses.json
 
 .DS_Store

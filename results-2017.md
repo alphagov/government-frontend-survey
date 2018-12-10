@@ -8,26 +8,25 @@
   
   | Name | Count | Percentage |
   | --- | --- | --- |
-  | MOJ | 15 | 22.1% |
-| GDS | 12 | 17.6% |
-| DWP | 8 | 11.8% |
-| Home Office | 6 | 8.8% |
-| HMRC | 6 | 8.8% |
-| DfE | 2 | 2.9% |
-| Cabinet Office | 2 | 2.9% |
-|  | 2 | 2.9% |
-| DIT | 2 | 2.9% |
+  | MOJ | 15 | 22.7% |
+| GDS | 12 | 18.2% |
+| DWP | 8 | 12.1% |
+| HMRC | 6 | 9.1% |
+| Home Office | 6 | 9.1% |
+| DfE | 2 | 3.0% |
+| DIT | 2 | 3.0% |
+| Cabinet Office | 2 | 3.0% |
 | Met Office | 1 | 1.5% |
-| HM Land Registry | 1 | 1.5% |
-| Office for National Statistics | 1 | 1.5% |
-| The Insolvency Service | 1 | 1.5% |
 | DEFRA | 1 | 1.5% |
+| The Insolvency Service | 1 | 1.5% |
+| NCA | 1 | 1.5% |
 | Registers of Scotland | 1 | 1.5% |
 | DVSA | 1 | 1.5% |
 | NHS | 1 | 1.5% |
 | DfE / ESFA | 1 | 1.5% |
+| HM Land Registry | 1 | 1.5% |
 | Environment Agency | 1 | 1.5% |
-| NCA | 1 | 1.5% |
+| Office for National Statistics | 1 | 1.5% |
 | Local authority | 1 | 1.5% |
 | Gambling Commission | 1 | 1.5% |
   
@@ -37,16 +36,14 @@
   
   | Name | Count | Percentage |
   | --- | --- | --- |
-  | Frontend development | 28 | 41.2% |
-| Full stack development | 21 | 30.9% |
-| Backend development | 7 | 10.3% |
-| Design | 6 | 8.8% |
+  | Frontend development | 28 | 41.8% |
+| Full stack development | 21 | 31.3% |
+| Design | 7 | 10.4% |
+| Backend development | 7 | 10.4% |
 | Technical architect | 1 | 1.5% |
-| I am an Interaction designer, but for the record, Content is design in my view. | 1 | 1.5% |
-|  | 1 | 1.5% |
 | Architect | 1 | 1.5% |
 | Technical Architect | 1 | 1.5% |
-| everything | 1 | 1.5% |
+| Everything | 1 | 1.5% |
   
   ### Question 3: What is the frontend of your project built upon?
   
@@ -54,33 +51,24 @@
   
   | Name | Count | Percentage |
   | --- | --- | --- |
-  | Node.js | 16 | 23.5% |
-| Ruby on Rails | 13 | 19.1% |
-| Python | 7 | 10.3% |
-| Scala and Play | 5 | 7.4% |
-| React | 3 | 4.4% |
-| Java | 2 | 2.9% |
-| Java, Node.js | 2 | 2.9% |
-| Dojo | 1 | 1.5% |
-| Python, React | 1 | 1.5% |
-| Node.js, React | 1 | 1.5% |
-| .net | 1 | 1.5% |
-| Node.js, Scala and Play | 1 | 1.5% |
-| Node.js, Bit of jQuery, GOV.UK Frontend, HMCTS Frontend (which uses jQuery) | 1 | 1.5% |
-| Node.js, React, Vue.js | 1 | 1.5% |
-| Riot | 1 | 1.5% |
-| PHP | 1 | 1.5% |
-| Java, React, Scala and Play | 1 | 1.5% |
-| React, Scala and Play | 1 | 1.5% |
-| Don't know, PHP | 1 | 1.5% |
-| Node.js, Ruby on Rails | 1 | 1.5% |
-| Razor / .NetCore | 1 | 1.5% |
-| React, Vue.js, Vanilla JS, JQuery, PHP, Blade | 1 | 1.5% |
-| Node.js, Python | 1 | 1.5% |
-| Microsoft Dynamics | 1 | 1.5% |
-|  | 1 | 1.5% |
-| Java, Ruby on Rails | 1 | 1.5% |
-| Vue.js | 1 | 1.5% |
+  | Node.js | 24 | 27.6% |
+| Ruby on Rails | 15 | 17.2% |
+| React | 9 | 10.3% |
+| Python | 9 | 10.3% |
+| Scala and Play | 8 | 9.2% |
+| Java | 6 | 6.9% |
+| PHP | 3 | 3.4% |
+| Vue.js | 3 | 3.4% |
+| Don't know | 1 | 1.1% |
+| Dojo | 1 | 1.1% |
+| Razor / .NetCore | 1 | 1.1% |
+| Riot | 1 | 1.1% |
+| Vanilla JS | 1 | 1.1% |
+| JQuery | 1 | 1.1% |
+| Blade | 1 | 1.1% |
+| .net | 1 | 1.1% |
+| Microsoft Dynamics | 1 | 1.1% |
+| jQuery | 1 | 1.1% |
   
   ### Question 4: What templating languages do you use on this project?
   
@@ -88,42 +76,33 @@
   
   | Name | Count | Percentage |
   | --- | --- | --- |
-  | Nunjucks | 12 | 17.6% |
-| ERB | 6 | 8.8% |
-| React | 4 | 5.9% |
-| Twirl | 4 | 5.9% |
-| Jinja | 3 | 4.4% |
-| Handlebars, Nunjucks | 3 | 4.4% |
-| Django templates, Jinja | 2 | 2.9% |
-|  | 2 | 2.9% |
-| Slim | 2 | 2.9% |
-| Vue.js | 2 | 2.9% |
-| None | 2 | 2.9% |
-| Jade | 2 | 2.9% |
-| haml | 1 | 1.5% |
-| Jinja, Nunjucks | 1 | 1.5% |
-| Marko | 1 | 1.5% |
-| Hogan | 1 | 1.5% |
-| Riot | 1 | 1.5% |
-| HAML | 1 | 1.5% |
-| React, Scala | 1 | 1.5% |
-| Springboot with Thymeleaf | 1 | 1.5% |
-| React, Twirl | 1 | 1.5% |
-| Handlebars, Jinja, Mustache, Nunjucks, Twirl | 1 | 1.5% |
-| ERB, Nunjucks, Slim | 1 | 1.5% |
-| Haml | 1 | 1.5% |
-| Jinja, Nunjucks, Twig | 1 | 1.5% |
-| Razor | 1 | 1.5% |
-| ERB, Mustache | 1 | 1.5% |
-| Thymeleaf | 1 | 1.5% |
-| PHP, React, Vue.js, Blade | 1 | 1.5% |
-| PHP, Twig | 1 | 1.5% |
-| Don't know | 1 | 1.5% |
-| Jinja, Nunjucks, React | 1 | 1.5% |
-| Mustache | 1 | 1.5% |
-| Nunjucks, Thymeleaf | 1 | 1.5% |
-| ERB, Freemarker, JSP | 1 | 1.5% |
-| Mustache, Twirl | 1 | 1.5% |
+  | Nunjucks | 21 | 22.6% |
+| ERB | 9 | 9.7% |
+| Jinja | 9 | 9.7% |
+| React | 8 | 8.6% |
+| Twirl | 7 | 7.5% |
+| Mustache | 4 | 4.3% |
+| Handlebars | 4 | 4.3% |
+| Slim | 3 | 3.2% |
+| Vue.js | 3 | 3.2% |
+| Thymeleaf | 3 | 3.2% |
+| None | 2 | 2.2% |
+| Twig | 2 | 2.2% |
+| Django templates | 2 | 2.2% |
+| PHP | 2 | 2.2% |
+| Jade | 2 | 2.2% |
+| Razor | 1 | 1.1% |
+| haml | 1 | 1.1% |
+| HAML | 1 | 1.1% |
+| Scala | 1 | 1.1% |
+| Haml | 1 | 1.1% |
+| Blade | 1 | 1.1% |
+| Marko | 1 | 1.1% |
+| Don't know | 1 | 1.1% |
+| Freemarker | 1 | 1.1% |
+| Hogan | 1 | 1.1% |
+| JSP | 1 | 1.1% |
+| Riot | 1 | 1.1% |
   
   ### Question 5: What CSS pre-processor do you use on this project?
   
@@ -131,14 +110,12 @@
   
   | Name | Count | Percentage |
   | --- | --- | --- |
-  | Sass | 55 | 80.9% |
-| We don't use a pre-processor | 6 | 8.8% |
-| Sass, We don't use a pre-processor | 2 | 2.9% |
-| Emotion/CSSinJS | 1 | 1.5% |
-|  | 1 | 1.5% |
-| Don't know | 1 | 1.5% |
-| Sass, styled-components/emotion | 1 | 1.5% |
-| Less, I use LESS locally and use the compiled css into the system | 1 | 1.5% |
+  | Sass | 58 | 84.1% |
+| We don't use a pre-processor | 6 | 8.7% |
+| Emotion | 2 | 2.9% |
+| Don't know | 1 | 1.4% |
+| styled-components | 1 | 1.4% |
+| Less | 1 | 1.4% |
   
   ### Question 6: Which CSS architecture do you follow?
   
@@ -146,20 +123,14 @@
   
   | Name | Count | Percentage |
   | --- | --- | --- |
-  | We don't follow a CSS architecture | 29 | 42.6% |
-| BEM | 19 | 27.9% |
-| Don't know | 6 | 8.8% |
-| CSS-in-JS | 2 | 2.9% |
-| BEM, We don't follow a CSS architecture | 2 | 2.9% |
-| BEM, ITCSS | 2 | 2.9% |
-| None - but using BEM going forward, and gradually converting | 1 | 1.5% |
-| BEM, SMACCS | 1 | 1.5% |
-| CSS-in-JS, BEM | 1 | 1.5% |
-|  | 1 | 1.5% |
-| OOCSS | 1 | 1.5% |
-| CSS-in-JS, There's a mixture at the moment but likely to go down the CSS-in-JS route | 1 | 1.5% |
-| BEM, Not always strict about BEM - some local styling is more ad-hoc | 1 | 1.5% |
-| BEM, ITCSS, OOCSS, Atomic | 1 | 1.5% |
+  | We don't follow a CSS architecture | 31 | 40.8% |
+| BEM | 28 | 36.8% |
+| Don't know | 6 | 7.9% |
+| CSS-in-JS | 4 | 5.3% |
+| ITCSS | 3 | 3.9% |
+| OOCSS | 2 | 2.6% |
+| SMACCS | 1 | 1.3% |
+| Atomic | 1 | 1.3% |
   
   ### Question 7: Does your project have its own design resources?
   
@@ -167,14 +138,9 @@
   
   | Name | Count | Percentage |
   | --- | --- | --- |
-  | Yes | 30 | 44.1% |
-| No | 29 | 42.6% |
-| In development | 4 | 5.9% |
-| There's some sharing of patterns and components around MOJ, but I haven't seen much written down about them | 1 | 1.5% |
-|  | 1 | 1.5% |
-| A fast streamer who didn't study design but now has it in their title | 1 | 1.5% |
-| We put design notes on our pull requests and the team keep other docs in Google Drive | 1 | 1.5% |
-| Shared across HMRC projects | 1 | 1.5% |
+  | Yes | 33 | 50.0% |
+| No | 29 | 43.9% |
+| In development | 4 | 6.1% |
   
   ### Question 8: What frontend resources from GDS does your project use?
   
@@ -182,52 +148,16 @@
   
   | Name | Count | Percentage |
   | --- | --- | --- |
-  | GOV.UK Design System (GOV.UK Frontend) | 12 | 17.6% |
-| None | 8 | 11.8% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Prototype Kit, GOV.UK Elements, GOV.UK Frontend Toolkit, GOV.UK Template | 5 | 7.4% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Prototype Kit | 5 | 7.4% |
-| GOV.UK Elements, GOV.UK Frontend Toolkit, GOV.UK Template | 4 | 5.9% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Elements, GOV.UK Frontend Toolkit | 3 | 4.4% |
-| GOV.UK Prototype Kit, GOV.UK Elements, GOV.UK Frontend Toolkit, GOV.UK Template | 3 | 4.4% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Frontend Toolkit | 3 | 4.4% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Prototype Kit, GOV.UK Elements, GOV.UK Frontend Toolkit | 2 | 2.9% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Elements, GOV.UK Frontend Toolkit, GOV.UK Template | 1 | 1.5% |
-| GOV.UK Prototype Kit, GOV.UK Elements, GOV.UK Frontend Toolkit | 1 | 1.5% |
-|  | 1 | 1.5% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Prototype Kit, Prototypes still use Elements, Toolkit and Template | 1 | 1.5% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Prototype Kit, GOV.UK Frontend Toolkit, GOV.UK Template | 1 | 1.5% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Elements | 1 | 1.5% |
-| GOV.UK Prototype Kit, GOV.UK Elements, GOV.UK Template, Planning on moving to design system "soon | 1 | 1.5% |
-| GOV.UK Elements, GOV.UK Frontend Toolkit, GOV.UK Template, We've a story on our backlog to integrate GOV.UK Design System | 1 | 1.5% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Frontend Toolkit, govuk-react | 1 | 1.5% |
-| GOV.UK Design System (GOV.UK Frontend), MOJ Pattern Library (an extension of the GOV.UK Design System) | 1 | 1.5% |
-| GOV.UK Frontend Toolkit | 1 | 1.5% |
-| GOV.UK Prototype Kit | 1 | 1.5% |
-| None, govuk-react | 1 | 1.5% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Prototype Kit, GOV.UK Elements, GOV.UK Frontend Toolkit, GOV.UK Template, Our use of the latest Gov Design system is currently restricted to our service prototype. The production service is still dependent upon the older GOV.UK Elements (a dependency of our frontend assets library) | 1 | 1.5% |
-| GOV.UK Prototype Kit, GOV.UK Elements | 1 | 1.5% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Prototype Kit, GOV.UK Elements | 1 | 1.5% |
-| GOV.UK Elements | 1 | 1.5% |
-| GOV.UK Elements, GOV.UK Frontend Toolkit | 1 | 1.5% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Prototype Kit, govuk-react | 1 | 1.5% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Prototype Kit, GOV.UK Frontend Toolkit | 1 | 1.5% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Prototype Kit, GOV.UK Elements, GOV.UK Frontend Toolkit, GOV.UK Template, Assets Frontend | 1 | 1.5% |
-| Own, but we have based it on Design System | 1 | 1.5% |
-| GOV.UK Design System (GOV.UK Frontend), GOV.UK Prototype Kit, HMCTS Design System (HMCTS Frontend) | 1 | 1.5% |
-  
-  ### Question 9: How are GOV.UK frontend resources integrated into your project?
-  
-  #### Answers
-  
-  | Name | Count | Percentage |
-  | --- | --- | --- |
-  |  | 68 | 100.0% |
-  
-  ### Question 10: How do you keep those resources up-to-date in your project?
-  
-  #### Answers
-  
-  | Name | Count | Percentage |
-  | --- | --- | --- |
-  |  | 68 | 100.0% |
+  | GOV.UK Design System (GOV.UK Frontend) | 42 | 25.3% |
+| GOV.UK Frontend Toolkit | 31 | 18.7% |
+| GOV.UK Elements | 29 | 17.5% |
+| GOV.UK Prototype Kit | 27 | 16.3% |
+| GOV.UK Template | 19 | 11.4% |
+| None | 9 | 5.4% |
+| govuk-react | 3 | 1.8% |
+| Planning to migrate to GOV.UK Design System (GOV.UK Frontend) | 2 | 1.2% |
+| HMCTS Design System (HMCTS Frontend) | 1 | 0.6% |
+| MOJ Pattern Library (an extension of the GOV.UK Design System) | 1 | 0.6% |
+| Assets Frontend | 1 | 0.6% |
+| Own | 1 | 0.6% |
   

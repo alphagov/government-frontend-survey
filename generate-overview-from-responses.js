@@ -39,16 +39,25 @@ fs.readFile(path.join(__dirname, 'responses.csv'), (error, results) => {
   
   strippedResponses.forEach(response => {
     Object.keys(response).forEach(question => {
+      const questionKey = response[question]
+      if (!questionKey) {
+        return
+      }
       const matchedQuestion = answersOverview.find(answer => {
         return answer.id == question
       })
       if (matchedQuestion) {
         matchedQuestion.answers = (matchedQuestion.answers || {})
-        if(matchedQuestion.answers[response[question]]) {
-          matchedQuestion.answers[response[question]] += 1
-        } else {
-          matchedQuestion.answers[response[question]] = 1
-        }
+        const keys = questionKey.split(',').map(key => {
+          return key.trim()
+        })
+        keys.forEach(key => {
+          if(matchedQuestion.answers[key]) {
+            matchedQuestion.answers[key] += 1
+          } else {
+            matchedQuestion.answers[key] = 1
+          }
+        })
       }
     })
   })
