@@ -1,5 +1,6 @@
-{
-  "1": {
+[
+  {
+    "id": 1,
     "type": "fixed",
     "question": "What department, agency or organisation do you work in?",
     "answers": {
@@ -14,7 +15,8 @@
       "DVLA": 2
     }
   },
-  "2": {
+  {
+    "id": 2,
     "type": "fixed",
     "question": "What is your main role on this project?",
     "answers": {
@@ -24,10 +26,11 @@
       "Full stack development": 6,
       "Tech lead": 5,
       "Content": 1,
-      "Other (please specify)": 5
+      "Other": 5
     }
   },
-  "3": {
+  {
+    "id": 3,
     "type": "fixed",
     "question": "What is the frontend of your project built upon?",
     "answers": {
@@ -39,10 +42,11 @@
       "Angular":	4,
       "Perl":	3,
       "Don't know":	3,
-      "Other (please specify)":	10
+      "Other":	10
     }
   },
-  "4": {
+  {
+    "id": 4,
     "type": "fixed",
     "question": "What templating languages do you use on this project?",
     "answers": {
@@ -61,10 +65,11 @@
       "Jade": 2,
       "Twig": 1,
       "Don't know": 5,
-      "Other (please specify)": 13
+      "Other": 13
     }
   },
-  "5": {
+  {
+    "id": 5,
     "type": "fixed",
     "question": "What CSS pre-processor do you use on this project?",
     "answers": {
@@ -72,10 +77,11 @@
       "We don't": 8,
       "Less": 2,
       "Don't know": 4,
-      "Other (please specify)": 5
+      "Other": 5
     }
   },
-  "6": {
+  {
+    "id": 6,
     "type": "fixed",
     "question": "Which CSS architecture do you follow?",
     "answers": {
@@ -85,10 +91,11 @@
       "OOCSS": 3,
       "SMACCS": 1,
       "Don't know": 26,
-      "Other (please specify)": 9
+      "Other": 9
     }
   },
-  "7": {
+  {
+    "id": 7,
     "type": "fixed",
     "question": "Does your project have its own design resources?",
     "answers": {
@@ -98,7 +105,8 @@
       "Other": 5
     }
   },
-  "8": {
+  {
+    "id": 8,
     "type": "fixed",
     "question": "What frontend resources from GDS does your project use?",
     "answers": {
@@ -106,10 +114,11 @@
       "GOV.UK Template": 58,
       "GOV.UK Frontend Toolkit": 65,
       "GOV.UK Prototype Kit": 37,
-      "Other (please specify)": 6
+      "Other": 6
     }
   },
-  "9": {
+  {
+    "id": 9,
     "type": "fixed",
     "question": "How are GOV.UK frontend resources integrated into your project?",
     "answers": {
@@ -124,7 +133,8 @@
       "Jenkins": 1
     }
   },
-  "10": {
+  {
+    "id": 10,
     "type": "open",
     "question": "How do you keep those resources up-to-date in your project?",
     "answers": {
@@ -137,5 +147,4 @@
       "Rarely": 1
     }
   }
-}
-
+]
