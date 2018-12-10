@@ -1,0 +1,13 @@
+{
+  "name": "government-frontend-survey",
+  "version": "1.0.0",
+  "description": "Sharing the results of the Government Frontend Survey",
+  "main": "results.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "csvjson": "^5.1.0"
+  }
+}

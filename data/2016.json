@@ -119,7 +119,7 @@
   },
   {
     "id": 9,
-    "type": "fixed",
+    "type": "open",
     "question": "How are GOV.UK frontend resources integrated into your project?",
     "answers": {
       "Manually": 20,

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "type": "fixed",
+    "question": "What department, agency or organisation do you work in?"
+  },
+  {
+    "id": 2,
+    "type": "fixed",
+    "question": "What is your main role on this project?"
+  },
+  {
+    "id": 3,
+    "type": "fixed",
+    "question": "What is the frontend of your project built upon?"
+  },
+  {
+    "id": 4,
+    "type": "fixed",
+    "question": "What templating languages do you use on this project?"
+  },
+  {
+    "id": 5,
+    "type": "fixed",
+    "question": "What CSS pre-processor do you use on this project?"
+  },
+  {
+    "id": 6,
+    "type": "fixed",
+    "question": "Which CSS architecture do you follow?"
+  },
+  {
+    "id": 7,
+    "type": "fixed",
+    "question": "Does your project have its own design resources?"
+  },
+  {
+    "id": 8,
+    "type": "fixed",
+    "question": "What frontend resources from GDS does your project use?"
+  },
+  {
+    "id": 9,
+    "type": "open",
+    "question": "How are GOV.UK frontend resources integrated into your project?"
+  },
+  {
+    "id": 10,
+    "type": "open",
+    "question": "How do you keep those resources up-to-date in your project?"
+  }
+]

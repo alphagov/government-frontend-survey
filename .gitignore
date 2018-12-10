@@ -59,3 +59,8 @@ typings/
 
 # next.js build output
 .next
+
+# Don't cache actual responses since they contain potentially identifiably personal information
+responses.csv
+
+.DS_Store
