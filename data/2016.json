@@ -1,0 +1,141 @@
+{
+  "1": {
+    "type": "fixed",
+    "question": "What department, agency or organisation do you work in?",
+    "answers": {
+      "HMRC": 15,
+      "MOJ": 13,
+      "Home Office": 12,
+      "DWP": 11,
+      "Environment Agency": 9,
+      "GDS": 9,
+      "Companies House": 3,
+      "Student Loans Company": 2,
+      "DVLA": 2
+    }
+  },
+  "2": {
+    "type": "fixed",
+    "question": "What is your main role on this project?",
+    "answers": {
+      "Frontend development": 36,
+      "Other development": 17,
+      "Design": 19,
+      "Full stack development": 6,
+      "Tech lead": 5,
+      "Content": 1,
+      "Other (please specify)": 5
+    }
+  },
+  "3": {
+    "type": "fixed",
+    "question": "What is the frontend of your project built upon?",
+    "answers": {
+      "Node":	29,
+      "Ruby on Rails":	17,
+      "Scala and Play":	17,
+      "Python":	13,
+      "Java":	6,
+      "Angular":	4,
+      "Perl":	3,
+      "Don't know":	3,
+      "Other (please specify)":	10
+    }
+  },
+  "4": {
+    "type": "fixed",
+    "question": "What templating languages do you use on this project?",
+    "answers": {
+      "Mustache": 19,
+      "Nunjucks": 18,
+      "ERB": 13,
+      "Twirl": 10,
+      "Hogan": 9,
+      "Handlebars": 9,
+      "Jinja": 6,
+      "Slim": 5,
+      "Django templates": 3,
+      "PHP": 2,
+      "Angular": 2,
+      "Freemarker": 2,
+      "Jade": 2,
+      "Twig": 1,
+      "Don't know": 5,
+      "Other (please specify)": 13
+    }
+  },
+  "5": {
+    "type": "fixed",
+    "question": "What CSS pre-processor do you use on this project?",
+    "answers": {
+      "Sass": 70,
+      "We don't": 8,
+      "Less": 2,
+      "Don't know": 4,
+      "Other (please specify)": 5
+    }
+  },
+  "6": {
+    "type": "fixed",
+    "question": "Which CSS architecture do you follow?",
+    "answers": {
+      "We don't": 35,
+      "BEM": 25,
+      "ITCSS": 3,
+      "OOCSS": 3,
+      "SMACCS": 1,
+      "Don't know": 26,
+      "Other (please specify)": 9
+    }
+  },
+  "7": {
+    "type": "fixed",
+    "question": "Does your project have its own design resources?",
+    "answers": {
+      "No": 33,
+      "Yes": 19,
+      "In development": 4,
+      "Other": 5
+    }
+  },
+  "8": {
+    "type": "fixed",
+    "question": "What frontend resources from GDS does your project use?",
+    "answers": {
+      "GOV.UK Elements": 66,
+      "GOV.UK Template": 58,
+      "GOV.UK Frontend Toolkit": 65,
+      "GOV.UK Prototype Kit": 37,
+      "Other (please specify)": 6
+    }
+  },
+  "9": {
+    "type": "fixed",
+    "question": "How are GOV.UK frontend resources integrated into your project?",
+    "answers": {
+      "Manually": 20,
+      "Package manager": 15,
+      "NPM": 14,
+      "Gem": 11,
+      "Departmental resource": 5,
+      "From scratch": 2,
+      "Gulp": 2,
+      "Git": 2,
+      "Jenkins": 1
+    }
+  },
+  "10": {
+    "type": "open",
+    "question": "How do you keep those resources up-to-date in your project?",
+    "answers": {
+      "Manually": 14,
+      "Periodic": 11,
+      "NPM": 10,
+      "We don't": 10,
+      "Bundler": 7,
+      "Watch for changes": 3,
+      "Rarely": 1
+    }
+  }
+}
+
