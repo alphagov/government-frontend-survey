@@ -40,9 +40,7 @@
 | Full stack development | 21 | 31.3% |
 | Design | 7 | 10.4% |
 | Backend development | 7 | 10.4% |
-| Technical architect | 1 | 1.5% |
-| Architect | 1 | 1.5% |
-| Technical Architect | 1 | 1.5% |
+| Technical architect | 3 | 4.5% |
 | Everything | 1 | 1.5% |
   
   ### Question 3: What is the frontend of your project built upon?
