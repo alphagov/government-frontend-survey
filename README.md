@@ -14,5 +14,5 @@ Much of the results need to be manually cleaned up by hand.
 
 ## Results
 
-- [2017](./results-2017.md)
+- [2018](./results-2018.md)
 - [2016](./results-2016.md)

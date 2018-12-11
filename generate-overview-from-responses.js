@@ -9,7 +9,7 @@ const csvJsonOptions = {
 
 const questionsData = require('./data/questions.json')
 
-const OUTPUT_FILENAME = '2017.json'
+const OUTPUT_FILENAME = '2018.json'
 
 fs.readFile(path.join(__dirname, 'responses.csv'), (error, results) => {
   if (error) {
