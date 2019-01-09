@@ -127,7 +127,10 @@ startResponses.forEach(response => {
 
 #### Answers
 
-| Name | Percentage ([${startYear}](./results-${startYear}.md#${slug})) | Percentage ([${endYear}](./results-${endYear}.md#${slug})) |
+- [Results from question ${response.id}, ${startYear}](./results-${startYear}.md#${slug})
+- [Results from question ${response.id}, ${endYear}](./results-${endYear}.md#${slug})
+
+| Name | Percentage (${startYear}) | Percentage (${endYear}) |
 | --- | --- | --- |
 ${formattedAnswers}
 `
