@@ -124,7 +124,7 @@
     "answers": {
       "Manually": 20,
       "Package manager": 15,
-      "NPM": 14,
+      "npm": 14,
       "Gem": 11,
       "Departmental resource": 5,
       "From scratch": 2,
@@ -140,7 +140,7 @@
     "answers": {
       "Manually": 14,
       "Periodic": 11,
-      "NPM": 10,
+      "npm": 10,
       "We don't": 10,
       "Bundler": 7,
       "Watch for changes": 3,
