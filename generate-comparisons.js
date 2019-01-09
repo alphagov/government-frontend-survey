@@ -118,7 +118,7 @@ startResponses.forEach(response => {
         }).join('\n')
 
     const title = `Question ${response.id}: ${response.question}`
-  
+    const slug = slugger.slug(title)
     output += (
 
   
@@ -127,7 +127,7 @@ startResponses.forEach(response => {
 
 #### Answers
 
-| Name | Percentage ([${startYear}](./results-${startYear}.md#${slugger.slug(title)})) | Percentage ([${endYear}](./results-${endYear}.md#${slugger.slug(title)}) |
+| Name | Percentage ([${startYear}](./results-${startYear}.md#${slug})) | Percentage ([${endYear}](./results-${endYear}.md#${slug})) |
 | --- | --- | --- |
 ${formattedAnswers}
 `
