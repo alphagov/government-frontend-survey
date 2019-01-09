@@ -27,12 +27,12 @@
   {
     "id": 6,
     "type": "fixed",
-    "question": "Which CSS architecture do you follow?"
+    "question": "Which CSS architecture do you follow?"
   },
   {
     "id": 7,
     "type": "fixed",
-    "question": "Does your project have its own design resources?"
+    "question": "Does your project have its own design resources?"
   },
   {
     "id": 8,
@@ -42,11 +42,11 @@
   {
     "id": 9,
     "type": "open",
-    "question": "How are GOV.UK frontend resources integrated into your project?"
+    "question": "How are GOV.UK frontend resources integrated into your project?"
   },
   {
     "id": 10,
     "type": "open",
-    "question": "How do you keep those resources up-to-date in your project?"
+    "question": "How do you keep those resources up-to-date in your project?"
   }
 ]

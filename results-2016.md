@@ -38,7 +38,7 @@
 | Name | Count | Percentage |
 | --- | --- | --- |
 | Node.js | 29 | 28.4% |
-| Ruby on Rails | 17 | 16.7% |
+| Ruby on Rails | 17 | 16.7% |
 | Scala and Play | 17 | 16.7% |
 | Python | 13 | 12.7% |
 | Other | 10 | 9.8% |
@@ -82,7 +82,7 @@
 | Don't know | 4 | 4.5% |
 | Less | 2 | 2.2% |
 
-### Question 6: Which CSS architecture do you follow?
+### Question 6: Which CSS architecture do you follow?
 
 #### Answers
 
@@ -96,7 +96,7 @@
 | OOCSS | 3 | 2.9% |
 | SMACCS | 1 | 1.0% |
 
-### Question 7: Does your project have its own design resources?
+### Question 7: Does your project have its own design resources?
 
 #### Answers
 
@@ -119,7 +119,7 @@
 | GOV.UK Prototype Kit | 37 | 15.9% |
 | Other | 6 | 2.6% |
 
-### Question 9: How are GOV.UK frontend resources integrated into your project?
+### Question 9: How are GOV.UK frontend resources integrated into your project?
 
 #### Answers
 
@@ -135,7 +135,7 @@
 | Git | 2 | 2.8% |
 | Jenkins | 1 | 1.4% |
 
-### Question 10: How do you keep those resources up-to-date in your project?
+### Question 10: How do you keep those resources up-to-date in your project?
 
 #### Answers
 

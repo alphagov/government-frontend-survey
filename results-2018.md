@@ -40,7 +40,7 @@
 | Design | 7 | 10.4% |
 | Backend development | 7 | 10.4% |
 | Technical architect | 3 | 4.5% |
-| Everything | 1 | 1.5% |
+| Other | 1 | 1.5% |
 
 ### Question 3: What is the frontend of your project built upon?
 
@@ -54,18 +54,17 @@
 | Python | 9 | 10.3% |
 | Scala and Play | 8 | 9.2% |
 | Java | 6 | 6.9% |
-| PHP | 3 | 3.4% |
 | Vue.js | 3 | 3.4% |
+| PHP | 3 | 3.4% |
+| jQuery | 2 | 2.3% |
 | Don't know | 1 | 1.1% |
-| Dojo | 1 | 1.1% |
 | Razor / .NetCore | 1 | 1.1% |
+| .net | 1 | 1.1% |
+| Dojo | 1 | 1.1% |
 | Riot | 1 | 1.1% |
 | Vanilla JS | 1 | 1.1% |
-| JQuery | 1 | 1.1% |
 | Blade | 1 | 1.1% |
-| .net | 1 | 1.1% |
 | Microsoft Dynamics | 1 | 1.1% |
-| jQuery | 1 | 1.1% |
 
 ### Question 4: What templating languages do you use on this project?
 
@@ -113,7 +112,7 @@
 | styled-components | 1 | 1.4% |
 | Less | 1 | 1.4% |
 
-### Question 6: Which CSS architecture do you follow?
+### Question 6: Which CSS architecture do you follow?
 
 #### Answers
 
@@ -128,7 +127,7 @@
 | SMACCS | 1 | 1.3% |
 | Atomic | 1 | 1.3% |
 
-### Question 7: Does your project have its own design resources?
+### Question 7: Does your project have its own design resources?
 
 #### Answers
 
@@ -157,7 +156,7 @@
 | Assets Frontend | 1 | 0.6% |
 | Own | 1 | 0.6% |
 
-### Question 9: How are GOV.UK frontend resources integrated into your project?
+### Question 9: How are GOV.UK frontend resources integrated into your project?
 
 #### Answers
 
@@ -176,7 +175,7 @@
 | Github | 1 | 1.7% |
 | Package manager | 1 | 1.7% |
 
-### Question 10: How do you keep those resources up-to-date in your project?
+### Question 10: How do you keep those resources up-to-date in your project?
 
 #### Answers
 

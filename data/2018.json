@@ -113,7 +113,7 @@
   {
     "id": 6,
     "type": "fixed",
-    "question": "Which CSS architecture do you follow?",
+    "question": "Which CSS architecture do you follow?",
     "answers": {
       "BEM": 28,
       "We don't follow a CSS architecture": 31,
@@ -128,7 +128,7 @@
   {
     "id": 7,
     "type": "fixed",
-    "question": "Does your project have its own design resources?",
+    "question": "Does your project have its own design resources?",
     "answers": {
       "Yes": 33,
       "No": 29,
@@ -157,7 +157,7 @@
   {
     "id": 9,
     "type": "open",
-    "question": "How are GOV.UK frontend resources integrated into your project?",
+    "question": "How are GOV.UK frontend resources integrated into your project?",
     "answers": {
       "npm": 25,
       "Manually": 7,
@@ -176,7 +176,7 @@
   {
     "id": 10,
     "type": "open",
-    "question": "How do you keep those resources up-to-date in your project?",
+    "question": "How do you keep those resources up-to-date in your project?",
     "answers": {
       "npm": 18,
       "Manually": 12,

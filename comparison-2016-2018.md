@@ -126,7 +126,7 @@
 | Other | 5.6% | N/A |
 | We don't | 9.0% | N/A |
 
-### Question 6: Which CSS architecture do you follow?
+### Question 6: Which CSS architecture do you follow?
 
 #### Answers
 
@@ -143,7 +143,7 @@
 | Other | 8.8% | N/A |
 | We don't | 34.3% | N/A |
 
-### Question 7: Does your project have its own design resources?
+### Question 7: Does your project have its own design resources?
 
 #### Answers
 
@@ -174,7 +174,7 @@
 | MOJ Pattern Library (an extension of the GOV.UK Design System) | N/A | 0.6% |
 | HMCTS Design System (HMCTS Frontend) | N/A | 0.6% |
 
-### Question 9: How are GOV.UK frontend resources integrated into your project?
+### Question 9: How are GOV.UK frontend resources integrated into your project?
 
 #### Answers
 
@@ -196,7 +196,7 @@
 | Git | 2.8% | N/A |
 | From scratch | 2.8% | N/A |
 
-### Question 10: How do you keep those resources up-to-date in your project?
+### Question 10: How do you keep those resources up-to-date in your project?
 
 #### Answers
 
