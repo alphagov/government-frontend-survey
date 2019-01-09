@@ -6,211 +6,211 @@
 
 #### Answers
 
-| Name | Count (2016) | Count (2018) |
+| Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
-| MOJ | 13 | 15 |
-| GDS | 9 | 12 |
-| DWP | 11 | 8 |
-| HMRC | 15 | 6 |
-| Home Office | 12 | 6 |
-| DIT | N/A | 2 |
-| Cabinet Office | N/A | 2 |
-| DfE | N/A | 2 |
-| Office for National Statistics | N/A | 1 |
-| DVSA | N/A | 1 |
-| Met Office | N/A | 1 |
-| NHS | N/A | 1 |
-| DEFRA | N/A | 1 |
-| DfE / ESFA | N/A | 1 |
-| The Insolvency Service | N/A | 1 |
-| Local authority | N/A | 1 |
-| Environment Agency | 9 | 1 |
-| NCA | N/A | 1 |
-| HM Land Registry | N/A | 1 |
-| Gambling Commission | N/A | 1 |
-| Registers of Scotland | N/A | 1 |
-| Companies House | 3 | N/A |
-| Student Loans Company | 2 | N/A |
-| DVLA | 2 | N/A |
+| MOJ | 17.1% | 22.7% |
+| GDS | 11.8% | 18.2% |
+| DWP | 14.5% | 12.1% |
+| HMRC | 19.7% | 9.1% |
+| Home Office | 15.8% | 9.1% |
+| DIT | N/A | 3.0% |
+| Cabinet Office | N/A | 3.0% |
+| DfE | N/A | 3.0% |
+| Office for National Statistics | N/A | 1.5% |
+| DVSA | N/A | 1.5% |
+| Met Office | N/A | 1.5% |
+| NHS | N/A | 1.5% |
+| DEFRA | N/A | 1.5% |
+| DfE / ESFA | N/A | 1.5% |
+| The Insolvency Service | N/A | 1.5% |
+| Local authority | N/A | 1.5% |
+| Environment Agency | 11.8% | 1.5% |
+| NCA | N/A | 1.5% |
+| HM Land Registry | N/A | 1.5% |
+| Gambling Commission | N/A | 1.5% |
+| Registers of Scotland | N/A | 1.5% |
+| DVLA | 2.6% | N/A |
+| Student Loans Company | 2.6% | N/A |
+| Companies House | 3.9% | N/A |
 
 ### Question 2: What is your main role on this project?
 
 #### Answers
 
-| Name | Count (2016) | Count (2018) |
+| Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
-| Frontend development | 36 | 28 |
-| Full stack development | 6 | 21 |
-| Backend development | N/A | 7 |
-| Design | 19 | 7 |
-| Technical architect | N/A | 3 |
-| Other | 5 | 1 |
-| Other development | 17 | N/A |
-| Tech lead | 5 | N/A |
-| Content | 1 | N/A |
+| Frontend development | 40.4% | 41.8% |
+| Full stack development | 6.7% | 31.3% |
+| Backend development | N/A | 10.4% |
+| Design | 21.3% | 10.4% |
+| Technical architect | N/A | 4.5% |
+| Other | 5.6% | 1.5% |
+| Content | 1.1% | N/A |
+| Tech lead | 5.6% | N/A |
+| Other development | 19.1% | N/A |
 
 ### Question 3: What is the frontend of your project built upon?
 
 #### Answers
 
-| Name | Count (2016) | Count (2018) |
+| Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
-| Node.js | 29 | 24 |
-| Ruby on Rails | 17 | 15 |
-| Python | 13 | 9 |
-| React | N/A | 9 |
-| Scala and Play | 17 | 8 |
-| Java | 6 | 6 |
-| Vue.js | N/A | 3 |
-| PHP | N/A | 3 |
-| jQuery | N/A | 2 |
-| Riot | N/A | 1 |
-| Razor / .NetCore | N/A | 1 |
-| Microsoft Dynamics | N/A | 1 |
-| Blade | N/A | 1 |
-| Vanilla JS | N/A | 1 |
-| Don't know | 3 | 1 |
-| Dojo | N/A | 1 |
-| .net | N/A | 1 |
-| Angular | 4 | N/A |
-| Perl | 3 | N/A |
-| Other | 10 | N/A |
+| Node.js | 28.4% | 27.6% |
+| Ruby on Rails | 16.7% | 17.2% |
+| Python | 12.7% | 10.3% |
+| React | N/A | 10.3% |
+| Scala and Play | 16.7% | 9.2% |
+| Java | 5.9% | 6.9% |
+| Vue.js | N/A | 3.4% |
+| PHP | N/A | 3.4% |
+| jQuery | N/A | 2.3% |
+| Riot | N/A | 1.1% |
+| Razor / .NetCore | N/A | 1.1% |
+| Microsoft Dynamics | N/A | 1.1% |
+| Blade | N/A | 1.1% |
+| Vanilla JS | N/A | 1.1% |
+| Don't know | 2.9% | 1.1% |
+| Dojo | N/A | 1.1% |
+| .net | N/A | 1.1% |
+| Other | 9.8% | N/A |
+| Perl | 2.9% | N/A |
+| Angular | 3.9% | N/A |
 
 ### Question 4: What templating languages do you use on this project?
 
 #### Answers
 
-| Name | Count (2016) | Count (2018) |
+| Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
-| Nunjucks | 18 | 21 |
-| Jinja | 6 | 9 |
-| ERB | 13 | 9 |
-| React | N/A | 8 |
-| Twirl | 10 | 7 |
-| Handlebars | 9 | 4 |
-| Mustache | 19 | 4 |
-| Thymeleaf | N/A | 3 |
-| Vue.js | N/A | 3 |
-| Slim | 5 | 3 |
-| HAML | N/A | 2 |
-| Twig | 1 | 2 |
-| None | N/A | 2 |
-| PHP | 2 | 2 |
-| Jade | 2 | 2 |
-| Django templates | 3 | 2 |
-| Scala | N/A | 1 |
-| Razor | N/A | 1 |
-| JSP | N/A | 1 |
-| Freemarker | 2 | 1 |
-| Don't know | 5 | 1 |
-| Blade | N/A | 1 |
-| Haml | N/A | 1 |
-| Marko | N/A | 1 |
-| Hogan | 9 | 1 |
-| Riot | N/A | 1 |
-| Angular | 2 | N/A |
-| Other | 13 | N/A |
+| Nunjucks | 15.1% | 22.6% |
+| Jinja | 5.0% | 9.7% |
+| ERB | 10.9% | 9.7% |
+| React | N/A | 8.6% |
+| Twirl | 8.4% | 7.5% |
+| Handlebars | 7.6% | 4.3% |
+| Mustache | 16.0% | 4.3% |
+| Thymeleaf | N/A | 3.2% |
+| Vue.js | N/A | 3.2% |
+| Slim | 4.2% | 3.2% |
+| HAML | N/A | 2.2% |
+| Twig | 0.8% | 2.2% |
+| None | N/A | 2.2% |
+| PHP | 1.7% | 2.2% |
+| Jade | 1.7% | 2.2% |
+| Django templates | 2.5% | 2.2% |
+| Scala | N/A | 1.1% |
+| Razor | N/A | 1.1% |
+| JSP | N/A | 1.1% |
+| Freemarker | 1.7% | 1.1% |
+| Don't know | 4.2% | 1.1% |
+| Blade | N/A | 1.1% |
+| Haml | N/A | 1.1% |
+| Marko | N/A | 1.1% |
+| Hogan | 7.6% | 1.1% |
+| Riot | N/A | 1.1% |
+| Other | 10.9% | N/A |
+| Angular | 1.7% | N/A |
 
 ### Question 5: What CSS pre-processor do you use on this project?
 
 #### Answers
 
-| Name | Count (2016) | Count (2018) |
+| Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
-| Sass | 70 | 58 |
-| We don't use a pre-processor | N/A | 6 |
-| Emotion | N/A | 2 |
-| Less | 2 | 1 |
-| styled-components | N/A | 1 |
-| Don't know | 4 | 1 |
-| We don't | 8 | N/A |
-| Other | 5 | N/A |
+| Sass | 78.7% | 84.1% |
+| We don't use a pre-processor | N/A | 8.7% |
+| Emotion | N/A | 2.9% |
+| Less | 2.2% | 1.4% |
+| styled-components | N/A | 1.4% |
+| Don't know | 4.5% | 1.4% |
+| Other | 5.6% | N/A |
+| We don't | 9.0% | N/A |
 
 ### Question 6: Which CSS architecture do you follow?
 
 #### Answers
 
-| Name | Count (2016) | Count (2018) |
+| Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
-| We don't follow a CSS architecture | N/A | 31 |
-| BEM | 25 | 28 |
-| Don't know | 26 | 6 |
-| CSS-in-JS | N/A | 4 |
-| ITCSS | 3 | 3 |
-| OOCSS | 3 | 2 |
-| Atomic | N/A | 1 |
-| SMACCS | 1 | 1 |
-| We don't | 35 | N/A |
-| Other | 9 | N/A |
+| We don't follow a CSS architecture | N/A | 40.8% |
+| BEM | 24.5% | 36.8% |
+| Don't know | 25.5% | 7.9% |
+| CSS-in-JS | N/A | 5.3% |
+| ITCSS | 2.9% | 3.9% |
+| OOCSS | 2.9% | 2.6% |
+| Atomic | N/A | 1.3% |
+| SMACCS | 1.0% | 1.3% |
+| Other | 8.8% | N/A |
+| We don't | 34.3% | N/A |
 
 ### Question 7: Does your project have its own design resources?
 
 #### Answers
 
-| Name | Count (2016) | Count (2018) |
+| Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
-| Yes | 19 | 33 |
-| No | 33 | 29 |
-| In development | 4 | 4 |
-| Other | 5 | N/A |
+| Yes | 31.1% | 50.0% |
+| No | 54.1% | 43.9% |
+| In development | 6.6% | 6.1% |
+| Other | 8.2% | N/A |
 
 ### Question 8: What frontend resources from GDS does your project use?
 
 #### Answers
 
-| Name | Count (2016) | Count (2018) |
+| Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
-| GOV.UK Design System (GOV.UK Frontend) | N/A | 42 |
-| GOV.UK Frontend Toolkit | 65 | 31 |
-| GOV.UK Elements | 66 | 29 |
-| GOV.UK Prototype Kit | 37 | 27 |
-| GOV.UK Template | 58 | 19 |
-| None | N/A | 9 |
-| govuk-react | N/A | 3 |
-| Planning to migrate to GOV.UK Design System (GOV.UK Frontend) | N/A | 2 |
-| Own | N/A | 1 |
-| Assets Frontend | N/A | 1 |
-| MOJ Pattern Library (an extension of the GOV.UK Design System) | N/A | 1 |
-| HMCTS Design System (HMCTS Frontend) | N/A | 1 |
-| Other | 6 | N/A |
+| GOV.UK Design System (GOV.UK Frontend) | N/A | 25.3% |
+| GOV.UK Frontend Toolkit | 28.0% | 18.7% |
+| GOV.UK Elements | 28.4% | 17.5% |
+| GOV.UK Prototype Kit | 15.9% | 16.3% |
+| GOV.UK Template | 25.0% | 11.4% |
+| None | N/A | 5.4% |
+| Planning to migrate to GOV.UK Design System (GOV.UK Frontend) | N/A | 1.2% |
+| govuk-react | N/A | 1.8% |
+| Other | 2.6% | N/A |
+| Own | N/A | 0.6% |
+| Assets Frontend | N/A | 0.6% |
+| MOJ Pattern Library (an extension of the GOV.UK Design System) | N/A | 0.6% |
+| HMCTS Design System (HMCTS Frontend) | N/A | 0.6% |
 
 ### Question 9: How are GOV.UK frontend resources integrated into your project?
 
 #### Answers
 
-| Name | Count (2016) | Count (2018) |
+| Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
-| npm | 14 | 25 |
-| Manually | 20 | 7 |
-| Gulp | 2 | 5 |
-| We don't | N/A | 4 |
-| Departmental resource | 5 | 4 |
-| Gem | 11 | 4 |
-| Webpack | N/A | 2 |
-| Prototype kit | N/A | 2 |
-| Badly | N/A | 2 |
-| Package manager | 15 | 1 |
-| Github | N/A | 1 |
-| CDN | N/A | 1 |
-| From scratch | 2 | N/A |
-| Git | 2 | N/A |
-| Jenkins | 1 | N/A |
+| npm | 19.4% | 43.1% |
+| Manually | 27.8% | 12.1% |
+| Gulp | 2.8% | 8.6% |
+| We don't | N/A | 6.9% |
+| Departmental resource | 6.9% | 6.9% |
+| Gem | 15.3% | 6.9% |
+| Webpack | N/A | 3.4% |
+| Prototype kit | N/A | 3.4% |
+| Badly | N/A | 3.4% |
+| Package manager | 20.8% | 1.7% |
+| Github | N/A | 1.7% |
+| CDN | N/A | 1.7% |
+| Jenkins | 1.4% | N/A |
+| Git | 2.8% | N/A |
+| From scratch | 2.8% | N/A |
 
 ### Question 10: How do you keep those resources up-to-date in your project?
 
 #### Answers
 
-| Name | Count (2016) | Count (2018) |
+| Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
-| npm | 10 | 18 |
-| Manually | 14 | 12 |
-| Dependency notification service | N/A | 6 |
-| Trying our best | N/A | 4 |
-| We don't | 10 | 2 |
-| Github | N/A | 2 |
-| RSS | N/A | 1 |
-| When things break | N/A | 1 |
-| Periodic | 11 | N/A |
-| Bundler | 7 | N/A |
-| Watch for changes | 3 | N/A |
-| Rarely | 1 | N/A |
+| npm | 17.9% | 39.1% |
+| Manually | 25.0% | 26.1% |
+| Dependency notification service | N/A | 13.0% |
+| Trying our best | N/A | 8.7% |
+| We don't | 17.9% | 4.3% |
+| Github | N/A | 4.3% |
+| RSS | N/A | 2.2% |
+| When things break | N/A | 2.2% |
+| Rarely | 1.8% | N/A |
+| Watch for changes | 5.4% | N/A |
+| Bundler | 12.5% | N/A |
+| Periodic | 19.6% | N/A |

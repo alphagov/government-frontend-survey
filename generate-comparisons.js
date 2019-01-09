@@ -77,27 +77,40 @@ function generateComparison (startYear, endYear) {
 `
 
 startResponses.forEach(response => {
+  let endResponse = endResponses.find(endResponse => endResponse.id === response.id)
     const mergedAndSummedAnswers = mergeAndSum(
       response.answers,
-      endResponses.find(endResponse => endResponse.id === response.id).answers
+      endResponse.answers
     )
 
     const formattedAnswers =
       Object
         .entries(mergedAndSummedAnswers)
+        .map(answer => {
+          let value = answer[1][0]
+          let endValue = answer[1][1]
+
+          let percentage = !isNaN(value) ? ((value / response.total) * 100).toFixed(1) : 0
+          let endPercentage = !isNaN(endValue) ? ((endValue / endResponse.total) * 100).toFixed(1) : 0
+          answer[1][0] = percentage
+          answer[1][1] = endPercentage
+          return answer
+        })
         .sort((a, b) => {
-          const valueA = a[1][1]
-          const valueB = b[1][1]
-          if (valueB === UNDEFINED_LABEL || valueA > valueB) {
+          const valueA = parseInt(a[1][1])
+          const valueB = parseInt(b[1][1])
+          if (valueA > valueB) {
             return -1;
           }
           return 1;
         })
         .map(answer => {
           let key = answer[0]
-          let value = answer[1][0]
-          let comparisonValue = answer[1][1]
-          return `| ${key} | ${value} | ${comparisonValue} |`
+          let value = answer[1][0] ? answer[1][0] + '%' : UNDEFINED_LABEL
+          
+          let endValue = answer[1][1] ? answer[1][1] + '%' : UNDEFINED_LABEL
+
+          return `| ${key} | ${value} | ${endValue} |`
         }).join('\n')
   
     output += (
@@ -108,7 +121,7 @@ startResponses.forEach(response => {
 
 #### Answers
 
-| Name | Count (${startYear}) | Count (${endYear}) |
+| Name | Percentage (${startYear}) | Percentage (${endYear}) |
 | --- | --- | --- |
 ${formattedAnswers}
 `
