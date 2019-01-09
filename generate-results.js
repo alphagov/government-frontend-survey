@@ -76,4 +76,4 @@ function generateResults (year) {
 }
 
 generateResults('2016')
-generateResults('2017')
+generateResults('2018')
