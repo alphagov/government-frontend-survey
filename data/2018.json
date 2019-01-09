@@ -37,7 +37,7 @@
       "Full stack development": 21,
       "Backend development": 7,
       "Technical architect": 3,
-      "Everything": 1
+      "Other": 1
     }
   },
   {
@@ -54,13 +54,12 @@
       "Razor / .NetCore": 1,
       "Don't know": 1,
       "PHP": 3,
-      "jQuery": 1,
+      "jQuery": 2,
       "Java": 6,
       ".net": 1,
       "Vue.js": 3,
       "Riot": 1,
       "Vanilla JS": 1,
-      "JQuery": 1,
       "Blade": 1,
       "Microsoft Dynamics": 1
     }
