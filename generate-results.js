@@ -28,7 +28,7 @@ function generateResults (year) {
   
   
   let output = `# Government Frontend Survey Results
-  
+
   ## ${year}
   `
   
@@ -49,21 +49,21 @@ function generateResults (year) {
           const key = answer[0]
           const value = answer[1]
           const percentage = ((value / response.total) * 100).toFixed(1)
-          return `| ${key} | ${value} | ${percentage}% |`
+          return `  | ${key} | ${value} | ${percentage}% |`
         }).join('\n')
   
     output += (
   
   `
   ### Question ${response.id}: ${response.question}
-  
+
   #### Answers
-  
+
   | Name | Count | Percentage |
   | --- | --- | --- |
-  ${formattedAnswers}
+${formattedAnswers}
   `
-      
+
     )
   })
   
