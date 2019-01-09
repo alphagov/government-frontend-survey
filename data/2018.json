@@ -154,5 +154,39 @@
       "Assets Frontend": 1,
       "Own": 1
     }
+  },
+  {
+    "id": 9,
+    "type": "open",
+    "question": "How are GOV.UK frontend resources integrated into your project?",
+    "answers": {
+      "npm": 25,
+      "Manually": 7,
+      "Gulp": 5,
+      "Gem": 4,
+      "Badly": 2,
+      "Departmental resource": 4,
+      "We don't": 4,
+      "Webpack": 2,
+      "CDN": 1,
+      "Github": 1,
+      "Package manager": 1,
+      "Prototype kit": 2
+    }
+  },
+  {
+    "id": 10,
+    "type": "open",
+    "question": "How do you keep those resources up-to-date in your project?",
+    "answers": {
+      "npm": 18,
+      "Manually": 12,
+      "Dependency notification service": 6,
+      "Trying our best": 4,
+      "Github": 2,
+      "We don't": 2,
+      "RSS": 1,
+      "When things break": 1
+    }
   }
 ]
