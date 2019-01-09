@@ -6,7 +6,7 @@
 
 #### Answers
 
-| Name | Percentage (2016) | Percentage (2018) |
+| Name | Percentage ([2016](./results-2016.md#question-1-what-department-agency-or-organisation-do-you-work-in)) | Percentage ([2018](./results-2018.md#question-1-what-department-agency-or-organisation-do-you-work-in-1) |
 | --- | --- | --- |
 | MOJ | 17.1% | 22.7% |
 | GDS | 11.8% | 18.2% |
@@ -37,7 +37,7 @@
 
 #### Answers
 
-| Name | Percentage (2016) | Percentage (2018) |
+| Name | Percentage ([2016](./results-2016.md#question-2-what-is-your-main-role-on-this-project)) | Percentage ([2018](./results-2018.md#question-2-what-is-your-main-role-on-this-project-1) |
 | --- | --- | --- |
 | Frontend development | 40.4% | 41.8% |
 | Full stack development | 6.7% | 31.3% |
@@ -53,7 +53,7 @@
 
 #### Answers
 
-| Name | Percentage (2016) | Percentage (2018) |
+| Name | Percentage ([2016](./results-2016.md#question-3-what-is-the-frontend-of-your-project-built-upon)) | Percentage ([2018](./results-2018.md#question-3-what-is-the-frontend-of-your-project-built-upon-1) |
 | --- | --- | --- |
 | Node.js | 28.4% | 27.6% |
 | Ruby on Rails | 16.7% | 17.2% |
@@ -80,7 +80,7 @@
 
 #### Answers
 
-| Name | Percentage (2016) | Percentage (2018) |
+| Name | Percentage ([2016](./results-2016.md#question-4-what-templating-languages-do-you-use-on-this-project)) | Percentage ([2018](./results-2018.md#question-4-what-templating-languages-do-you-use-on-this-project-1) |
 | --- | --- | --- |
 | Nunjucks | 15.1% | 22.6% |
 | Jinja | 5.0% | 9.7% |
@@ -115,7 +115,7 @@
 
 #### Answers
 
-| Name | Percentage (2016) | Percentage (2018) |
+| Name | Percentage ([2016](./results-2016.md#question-5-what-css-pre-processor-do-you-use-on-this-project)) | Percentage ([2018](./results-2018.md#question-5-what-css-pre-processor-do-you-use-on-this-project-1) |
 | --- | --- | --- |
 | Sass | 78.7% | 84.1% |
 | We don't use a pre-processor | N/A | 8.7% |
@@ -130,7 +130,7 @@
 
 #### Answers
 
-| Name | Percentage (2016) | Percentage (2018) |
+| Name | Percentage ([2016](./results-2016.md#question-6-which-css-architecture-do-you-follow)) | Percentage ([2018](./results-2018.md#question-6-which-css-architecture-do-you-follow-1) |
 | --- | --- | --- |
 | We don't follow a CSS architecture | N/A | 40.8% |
 | BEM | 24.5% | 36.8% |
@@ -147,7 +147,7 @@
 
 #### Answers
 
-| Name | Percentage (2016) | Percentage (2018) |
+| Name | Percentage ([2016](./results-2016.md#question-7-does-your-project-have-its-own-design-resources)) | Percentage ([2018](./results-2018.md#question-7-does-your-project-have-its-own-design-resources-1) |
 | --- | --- | --- |
 | Yes | 31.1% | 50.0% |
 | No | 54.1% | 43.9% |
@@ -158,7 +158,7 @@
 
 #### Answers
 
-| Name | Percentage (2016) | Percentage (2018) |
+| Name | Percentage ([2016](./results-2016.md#question-8-what-frontend-resources-from-gds-does-your-project-use)) | Percentage ([2018](./results-2018.md#question-8-what-frontend-resources-from-gds-does-your-project-use-1) |
 | --- | --- | --- |
 | GOV.UK Design System (GOV.UK Frontend) | N/A | 25.3% |
 | GOV.UK Frontend Toolkit | 28.0% | 18.7% |
@@ -178,7 +178,7 @@
 
 #### Answers
 
-| Name | Percentage (2016) | Percentage (2018) |
+| Name | Percentage ([2016](./results-2016.md#question-9-how-are-govuk-frontend-resources-integrated-into-your-project)) | Percentage ([2018](./results-2018.md#question-9-how-are-govuk-frontend-resources-integrated-into-your-project-1) |
 | --- | --- | --- |
 | npm | 19.4% | 43.1% |
 | Manually | 27.8% | 12.1% |
@@ -200,7 +200,7 @@
 
 #### Answers
 
-| Name | Percentage (2016) | Percentage (2018) |
+| Name | Percentage ([2016](./results-2016.md#question-10-how-do-you-keep-those-resources-up-to-date-in-your-project)) | Percentage ([2018](./results-2018.md#question-10-how-do-you-keep-those-resources-up-to-date-in-your-project-1) |
 | --- | --- | --- |
 | npm | 17.9% | 39.1% |
 | Manually | 25.0% | 26.1% |

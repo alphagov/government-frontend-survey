@@ -32,6 +32,7 @@ function generateResults (year) {
 ## ${year}`
   
   responses.forEach(response => {
+
     const formattedAnswers =
       Object
         .entries(response.answers)

@@ -8,6 +8,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "csvjson": "^5.1.0"
+    "csvjson": "^5.1.0",
+    "github-slugger": "^1.2.1"
   }
 }

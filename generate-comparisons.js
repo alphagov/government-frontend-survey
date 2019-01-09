@@ -1,4 +1,6 @@
 const fs = require('fs')
+const GithubSlugger = require('github-slugger')
+let slugger = new GithubSlugger()
 
 function getTotals (data) {
   return data.map(response => {
@@ -77,6 +79,8 @@ function generateComparison (startYear, endYear) {
 `
 
 startResponses.forEach(response => {
+  slugger.reset()
+
   let endResponse = endResponses.find(endResponse => endResponse.id === response.id)
     const mergedAndSummedAnswers = mergeAndSum(
       response.answers,
@@ -112,6 +116,8 @@ startResponses.forEach(response => {
 
           return `| ${key} | ${value} | ${endValue} |`
         }).join('\n')
+
+    const title = `Question ${response.id}: ${response.question}`
   
     output += (
 
@@ -121,7 +127,7 @@ startResponses.forEach(response => {
 
 #### Answers
 
-| Name | Percentage (${startYear}) | Percentage (${endYear}) |
+| Name | Percentage ([${startYear}](./results-${startYear}.md#${slugger.slug(title)})) | Percentage ([${endYear}](./results-${endYear}.md#${slugger.slug(title)}) |
 | --- | --- | --- |
 ${formattedAnswers}
 `
