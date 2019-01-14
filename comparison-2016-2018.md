@@ -133,13 +133,12 @@
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
 | Sass | 78.7% | 84.1% |
-| We don't use a pre-processor | N/A | 8.7% |
+| We don't use a pre-processor | 9.0% | 8.7% |
 | Emotion | N/A | 2.9% |
 | Less | 2.2% | 1.4% |
 | styled-components | N/A | 1.4% |
 | Don't know | 4.5% | 1.4% |
 | Other | 5.6% | N/A |
-| We don't | 9.0% | N/A |
 
 ### Question 6: Which CSS architecture do you follow?
 
@@ -150,7 +149,7 @@
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
-| We don't follow a CSS architecture | N/A | 40.8% |
+| We don't follow a CSS architecture | 34.3% | 40.8% |
 | BEM | 24.5% | 36.8% |
 | Don't know | 25.5% | 7.9% |
 | CSS-in-JS | N/A | 5.3% |
@@ -159,7 +158,6 @@
 | Atomic | N/A | 1.3% |
 | SMACCS | 1.0% | 1.3% |
 | Other | 8.8% | N/A |
-| We don't | 34.3% | N/A |
 
 ### Question 7: Does your project have its own design resources?
 

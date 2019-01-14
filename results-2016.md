@@ -77,7 +77,7 @@
 | Name | Count | Percentage |
 | --- | --- | --- |
 | Sass | 70 | 78.7% |
-| We don't | 8 | 9.0% |
+| We don't use a pre-processor | 8 | 9.0% |
 | Other | 5 | 5.6% |
 | Don't know | 4 | 4.5% |
 | Less | 2 | 2.2% |
@@ -88,7 +88,7 @@
 
 | Name | Count | Percentage |
 | --- | --- | --- |
-| We don't | 35 | 34.3% |
+| We don't follow a CSS architecture | 35 | 34.3% |
 | Don't know | 26 | 25.5% |
 | BEM | 25 | 24.5% |
 | Other | 9 | 8.8% |

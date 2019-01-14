@@ -74,7 +74,7 @@
     "question": "What CSS pre-processor do you use on this project?",
     "answers": {
       "Sass": 70,
-      "We don't": 8,
+      "We don't use a pre-processor": 8,
       "Less": 2,
       "Don't know": 4,
       "Other": 5
@@ -85,7 +85,7 @@
     "type": "fixed",
     "question": "Which CSS architecture do you follow?",
     "answers": {
-      "We don't": 35,
+      "We don't follow a CSS architecture": 35,
       "BEM": 25,
       "ITCSS": 3,
       "OOCSS": 3,
