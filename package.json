@@ -4,6 +4,7 @@
   "description": "Sharing the results of the Government Frontend Survey",
   "main": "results.js",
   "scripts": {
+    "build": "node generate-comparisons.js && node generate-results.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "MIT",
