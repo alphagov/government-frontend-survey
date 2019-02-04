@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "text": "MOJ, DWP, HMRC, Home Office still make up a big portion of responses.\n\nThere’s also a lot more individuals in departments across Government responding."
+  },
+  {
+    "id": 2,
+    "text": "This year we removed the ‘Other development’ category as it was too vague.\n\nMore people have selected ‘Backend development’ and ‘Full stack development’, this may be related to the wider industry too."
+  },
+  {
+    "id": 3,
+    "text": "Node.js, Ruby on Rails, Python have largely remained the same, this year we see more people declare their frontend libraries with React appearing at 10.3% and Vue.js moving ahead of jQuery at 3.4%"
+  },
+  {
+    "id": 4,
+    "text": "More people are using Nunjucks, this is likely due to the GOV.UK Design System adopting Nunjucks to provide examples.\n\nAgain we see frameworks like React and Vue.js enter the results."
+  },
+  {
+    "id": 5,
+    "text": "Sass still has strong usage in 2018 but there is an introduction of CSS-in-JS libraries which have become more popular in 2018."
+  },
+  {
+    "id": 6,
+    "text": "A lot of people are opting out of following a CSS architecture, of those that do BEM is still popular again with CSS-in-JS joining the ranks."
+  },
+  {
+    "id": 7,
+    "text": "More people have their own design resources, this could be due to the rise in popularity of design systems in 2018."
+  },
+  {
+    "id": 8,
+    "text": "One of the aims of the GOV.UK Design System was to merge GOV.UK Frontend Toolkit, Elements and Template into one package to be used, so we’re happy to see a reduced usage of these deprecated libraries.\n\nThis year we also see people announce their own departmental resources, which have seen more investment."
+  },
+  {
+    "id": 9,
+    "text": "In 2016 we saw over 50% (“npm”, “package manager”, “gem”) of people using package managers such as npm, this year we see around the same results but people are announcing npm as their primary package manager.\n\nGulp has more usage but Webpack is a new introduction, which may tie in with the increased usage of frameworks like React.\n\nWe also feel for the people who responded with “Badly”!"
+  },
+  {
+    "id": 10,
+    "text": "More people are using npm to keep their dependencies up-to-date, a new addition is “Dependency notification service” why open an issue or pull request on your repository.\n\n8.7% of people are “trying their best”, good luck!"
+  }
+]

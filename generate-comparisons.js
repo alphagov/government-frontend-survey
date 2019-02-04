@@ -69,6 +69,7 @@ function mergeAndSum (start, end) {
 function generateComparison (startYear, endYear) {
   const startData = require(`./data/${startYear}.json`)
   const endData = require(`./data/${endYear}.json`)
+  const notes = require(`./data/${startYear}-${endYear}-notes.json`)
 
   const startResponses = getTotals(startData)
   const endResponses = getTotals(endData)  
@@ -119,20 +120,26 @@ startResponses.forEach(response => {
 
     const title = `Question ${response.id}: ${response.question}`
     const slug = slugger.slug(title)
+    const noteText = notes.find(note => note.id === response.id).text
     output += (
 
   
   `
 ### Question ${response.id}: ${response.question}
 
-#### Answers
+${noteText}
 
-- [Results from question ${response.id}, ${startYear}](./results-${startYear}.md#${slug})
-- [Results from question ${response.id}, ${endYear}](./results-${endYear}.md#${slug})
+#### Results
 
 | Name | Percentage (${startYear}) | Percentage (${endYear}) |
 | --- | --- | --- |
 ${formattedAnswers}
+
+#### Sources
+
+- [${startYear} results for question ${response.id}](./results-${startYear}.md#${slug})
+- [${endYear} results for question ${response.id}](./results-${endYear}.md#${slug})
+
 `
 
     )
