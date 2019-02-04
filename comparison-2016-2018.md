@@ -8,7 +8,7 @@ MOJ, DWP, HMRC, Home Office still make up a big portion of responses.
 
 There’s also a lot more individuals in departments across Government responding.
 
-#### Results
+#### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ This year we removed the ‘Other development’ category as it was too vague.
 
 More people have selected ‘Backend development’ and ‘Full stack development’, this may be related to the wider industry too.
 
-#### Results
+#### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -73,7 +73,7 @@ More people have selected ‘Backend development’ and ‘Full stack developmen
 
 Node.js, Ruby on Rails, Python have largely remained the same, this year we see more people declare their frontend libraries with React appearing at 10.3% and Vue.js moving ahead of jQuery at 3.4%
 
-#### Results
+#### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -110,7 +110,7 @@ More people are using Nunjucks, this is likely due to the GOV.UK Design System a
 
 Again we see frameworks like React and Vue.js enter the results.
 
-#### Results
+#### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -153,7 +153,7 @@ Again we see frameworks like React and Vue.js enter the results.
 
 Sass still has strong usage in 2018 but there is an introduction of CSS-in-JS libraries which have become more popular in 2018.
 
-#### Results
+#### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -175,7 +175,7 @@ Sass still has strong usage in 2018 but there is an introduction of CSS-in-JS li
 
 A lot of people are opting out of following a CSS architecture, of those that do BEM is still popular again with CSS-in-JS joining the ranks.
 
-#### Results
+#### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -199,7 +199,7 @@ A lot of people are opting out of following a CSS architecture, of those that do
 
 More people have their own design resources, this could be due to the rise in popularity of design systems in 2018.
 
-#### Results
+#### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -220,7 +220,7 @@ One of the aims of the GOV.UK Design System was to merge GOV.UK Frontend Toolkit
 
 This year we also see people announce their own departmental resources, which have seen more investment.
 
-#### Results
+#### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -252,7 +252,7 @@ Gulp has more usage but Webpack is a new introduction, which may tie in with the
 
 We also feel for the people who responded with “Badly”!
 
-#### Results
+#### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -284,7 +284,7 @@ More people are using npm to keep their dependencies up-to-date, a new addition 
 
 8.7% of people are “trying their best”, good luck!
 
-#### Results
+#### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |

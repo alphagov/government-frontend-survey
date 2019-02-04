@@ -129,7 +129,7 @@ startResponses.forEach(response => {
 
 ${noteText}
 
-#### Results
+#### Answers
 
 | Name | Percentage (${startYear}) | Percentage (${endYear}) |
 | --- | --- | --- |
