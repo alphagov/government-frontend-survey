@@ -156,7 +156,7 @@
   },
   {
     "id": 9,
-    "type": "open",
+    "type": "open-categorised",
     "question": "How are GOV.UK frontend resources integrated into your project?",
     "answers": {
       "npm": 25,
@@ -175,7 +175,7 @@
   },
   {
     "id": 10,
-    "type": "open",
+    "type": "open-categorised",
     "question": "How do you keep those resources up-to-date in your project?",
     "answers": {
       "npm": 18,
@@ -186,6 +186,33 @@
       "We don't": 2,
       "RSS": 1,
       "When things break": 1
+    }
+  },
+
+  {
+    "id": 11,
+    "type": "open",
+    "question": "Are there any specific improvements you'd like to see in the frontend resources offered by GDS?",
+    "answers": {
+      "better documentation": true,
+      "ruby gems": true,
+      "more templating languages": true,
+      "Content Delivery Network (CDN) for assets": true,
+      "simpler tools for less technical people": true,
+      "adopt a form builder": true,
+      "less reliance on polyfills": true,
+      "dont use BEM": true,
+      "tools to help port GOV.UK Frontend": true,
+      "use nunjucks extensions": true,
+      "authoring CSS rather than having to write more HTML": true,
+      "a single package and site": "Done",
+      "better code": "Done",
+      "a clear contribution model": "Done",
+      "accessibility": "Done",
+      "better support": "Done",
+      "versioned components": "Done",
+      "compiled assets including CSS": "Done",
+      "better JavaScript": "Done"
     }
   }
 ]

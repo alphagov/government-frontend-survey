@@ -38,5 +38,9 @@
   {
     "id": 10,
     "text": "More people are using npm to keep their dependencies up-to-date, a new addition is “Dependency notification service” why open an issue or pull request on your repository.\n\n8.7% of people are “trying their best”, good luck!"
+  },
+  {
+    "id": 11,
+    "text": "See the results in detail for a better comparison"
   }
 ]

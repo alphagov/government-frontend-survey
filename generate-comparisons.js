@@ -1,4 +1,5 @@
 const fs = require('fs')
+const outdent = require('outdent')
 const GithubSlugger = require('github-slugger')
 let slugger = new GithubSlugger()
 
@@ -74,10 +75,11 @@ function generateComparison (startYear, endYear) {
   const startResponses = getTotals(startData)
   const endResponses = getTotals(endData)  
   
-  let output = `# Government Frontend Survey Results
+  let output = outdent`
+    # Government Frontend Survey Results
 
-## Comparison between ${startYear} and ${endYear}
-`
+    ## Comparison between ${startYear} and ${endYear}
+  `
 
 startResponses.forEach(response => {
   slugger.reset()
@@ -88,61 +90,116 @@ startResponses.forEach(response => {
       endResponse.answers
     )
 
-    const formattedAnswers =
-      Object
-        .entries(mergedAndSummedAnswers)
-        .map(answer => {
-          let value = answer[1][0]
-          let endValue = answer[1][1]
-
-          let percentage = !isNaN(value) ? ((value / response.total) * 100).toFixed(1) : 0
-          let endPercentage = !isNaN(endValue) ? ((endValue / endResponse.total) * 100).toFixed(1) : 0
-          answer[1][0] = percentage
-          answer[1][1] = endPercentage
-          return answer
-        })
-        .sort((a, b) => {
-          const valueA = parseInt(a[1][1])
-          const valueB = parseInt(b[1][1])
-          if (valueA > valueB) {
-            return -1;
-          }
-          return 1;
-        })
-        .map(answer => {
-          let key = answer[0]
-          let value = answer[1][0] ? answer[1][0] + '%' : UNDEFINED_LABEL
-          
-          let endValue = answer[1][1] ? answer[1][1] + '%' : UNDEFINED_LABEL
-
-          return `| ${key} | ${value} | ${endValue} |`
-        }).join('\n')
-
     const title = `Question ${response.id}: ${response.question}`
     const slug = slugger.slug(title)
-    const noteText = notes.find(note => note.id === response.id).text
-    output += (
+    const noteText = notes.filter(note => note.id === response.id).map(note => note.text)
 
-  
-  `
-### Question ${response.id}: ${response.question}
+    let answers
+    if (response.type === 'open') {
+      const formattedAnswers =
+        Object
+          .entries(mergedAndSummedAnswers)
 
-${noteText}
+          .map(answer => {
+            if (answer[1][0] !== UNDEFINED_LABEL) {
+              if (answer[1][0] === 'Done') {
+                answer[1][0] = 'N/A (Done)'
+              } else {
+                answer[1][0] = 'Yes'
+              }
+            } else {
+              answer[1][0] = 'No'
+            }
 
-#### Answers
+            if (answer[1][1] !== UNDEFINED_LABEL) {
+              if (answer[1][1] === 'Done') {
+                answer[1][1] = 'N/A (Done)'
+              } else {
+                answer[1][1] = 'Yes'
+              }
+            } else {
+              answer[1][1] = 'No'
+            }
+          
+            return answer
+          })
+          .sort((a, b) => {
+            const valueA = (a[1][0])
+            const valueB = (b[1][0])
+            const valueEndA = (a[1][1])
+            const valueEndB = (b[1][1])
+            if (
+              (valueB + valueEndB) <
+              (valueA + valueEndA)
+            ) {
+              return -1;
+            }
+            return 1;
+          })
+          .map(answer => {
+            let key = answer[0]
+            let value = answer[1][0]
+            let endValue = answer[1][1]
+          
+            return `| ${key} | ${value} | ${endValue} |`
+          }).join('\n')
+      answers = outdent`
+        | Name | ${startYear} | ${endYear} |
+        | --- | --- | --- |
+        ${formattedAnswers}
+      `
+    } else {
+      const formattedAnswers =
+        Object
+          .entries(mergedAndSummedAnswers)
+          .map(answer => {
+            let value = answer[1][0]
+            let endValue = answer[1][1]
 
-| Name | Percentage (${startYear}) | Percentage (${endYear}) |
-| --- | --- | --- |
-${formattedAnswers}
+            let percentage = !isNaN(value) ? ((value / response.total) * 100).toFixed(1) : 0
+            let endPercentage = !isNaN(endValue) ? ((endValue / endResponse.total) * 100).toFixed(1) : 0
+            answer[1][0] = percentage
+            answer[1][1] = endPercentage
+            return answer
+          })
+          .sort((a, b) => {
+            const valueA = parseInt(a[1][1])
+            const valueB = parseInt(b[1][1])
+            if (valueA > valueB) {
+              return -1;
+            }
+            return 1;
+          })
+          .map(answer => {
+            let key = answer[0]
+            let value = answer[1][0] ? answer[1][0] + '%' : UNDEFINED_LABEL
+            
+            let endValue = answer[1][1] ? answer[1][1] + '%' : UNDEFINED_LABEL
 
-#### Sources
+            return `| ${key} | ${value} | ${endValue} |`
+          }).join('\n')
+      answers = outdent`
+        | Name | Percentage (${startYear}) | Percentage (${endYear}) |
+        | --- | --- | --- |
+        ${formattedAnswers}
+      `
+    }
+    output += outdent`
 
-- [${startYear} results for question ${response.id}](./results-${startYear}.md#${slug})
-- [${endYear} results for question ${response.id}](./results-${endYear}.md#${slug})
+      ### Question ${response.id}: ${response.question}
 
-`
+      ${noteText}
 
-    )
+      #### Answers
+
+      ${answers}
+
+      #### Sources
+
+      - [${startYear} results for question ${response.id}](./results-${startYear}.md#${slug})
+      - [${endYear} results for question ${response.id}](./results-${endYear}.md#${slug})
+
+    `
   })
   
   fs.writeFile(`./comparison-${startYear}-${endYear}.md`, output, (error) => {

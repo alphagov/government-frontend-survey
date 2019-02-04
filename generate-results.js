@@ -1,4 +1,5 @@
 const fs = require('fs')
+const outdent = require('outdent')
 
 function generateResults (year) {
   const data = require(`./data/${year}.json`)
@@ -27,44 +28,68 @@ function generateResults (year) {
       [0]
   
   
-  let output = `# Government Frontend Survey Results
+  let output = outdent`
+    # Government Frontend Survey Results
 
-## ${year}`
+    ## ${year}
+
+  `
   
   responses.forEach(response => {
+    if (response.type === 'open') {
+      const formattedAnswers =
+        Object
+          .entries(response.answers)
+          .map(answer => {
+            const key = answer[0]
+            const value = answer[1]
+            let formattedValue = ''
+            if (typeof value !== 'boolean' && value) {
+              formattedValue = '\n' + value.map(v => `  - ${v}`).join('\n')
+            }
+            return outdent`
+              - ${key}${formattedValue}
+            `
+          }).join('\n')
 
-    const formattedAnswers =
-      Object
-        .entries(response.answers)
-        .sort((a, b) => {
-          const valueA = a[1]
-          const valueB = b[1]
-          if (valueA < valueB) {
-            return 1
-          } else {
-            return -1
-          }
-        })
-        .map(answer => {
-          const key = answer[0]
-          const value = answer[1]
-          const percentage = ((value / response.total) * 100).toFixed(1)
-          return `| ${key} | ${value} | ${percentage}% |`
-        }).join('\n')
-  
-    output += (
-  
-  `
-### Question ${response.id}: ${response.question}
+      output += outdent`
 
-#### Answers
+        ### Question ${response.id}: ${response.question}
 
-| Name | Count | Percentage |
-| --- | --- | --- |
-${formattedAnswers}
-`
+        #### Answers
 
-    )
+        ${formattedAnswers}
+      `
+    } else {
+      const formattedAnswers =
+        Object
+          .entries(response.answers)
+          .sort((a, b) => {
+            const valueA = a[1]
+            const valueB = b[1]
+            if (valueA < valueB) {
+              return 1
+            } else {
+              return -1
+            }
+          })
+          .map(answer => {
+            const key = answer[0]
+            const value = answer[1]
+            const percentage = ((value / response.total) * 100).toFixed(1)
+            return `| ${key} | ${value} | ${percentage}% |`
+          }).join('\n')
+      output += outdent`
+
+        ### Question ${response.id}: ${response.question}
+
+        #### Answers
+
+        | Name | Count | Percentage |
+        | --- | --- | --- |
+        ${formattedAnswers}
+      `
+    }
   })
   
   fs.writeFile(`./results-${year}.md`, output, (error) => {

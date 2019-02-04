@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "csvjson": "^5.1.0",
-    "github-slugger": "^1.2.1"
+    "github-slugger": "^1.2.1",
+    "outdent": "^0.7.0"
   }
 }

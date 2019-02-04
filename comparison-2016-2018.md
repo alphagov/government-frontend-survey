@@ -1,7 +1,6 @@
 # Government Frontend Survey Results
 
 ## Comparison between 2016 and 2018
-
 ### Question 1: What department, agency or organisation do you work in?
 
 MOJ, DWP, HMRC, Home Office still make up a big portion of responses.
@@ -42,7 +41,6 @@ There’s also a lot more individuals in departments across Government respondin
 - [2016 results for question 1](./results-2016.md#question-1-what-department-agency-or-organisation-do-you-work-in)
 - [2018 results for question 1](./results-2018.md#question-1-what-department-agency-or-organisation-do-you-work-in)
 
-
 ### Question 2: What is your main role on this project?
 
 This year we removed the ‘Other development’ category as it was too vague.
@@ -67,7 +65,6 @@ More people have selected ‘Backend development’ and ‘Full stack developmen
 
 - [2016 results for question 2](./results-2016.md#question-2-what-is-your-main-role-on-this-project)
 - [2018 results for question 2](./results-2018.md#question-2-what-is-your-main-role-on-this-project)
-
 
 ### Question 3: What is the frontend of your project built upon?
 
@@ -102,7 +99,6 @@ Node.js, Ruby on Rails, Python have largely remained the same, this year we see 
 
 - [2016 results for question 3](./results-2016.md#question-3-what-is-the-frontend-of-your-project-built-upon)
 - [2018 results for question 3](./results-2018.md#question-3-what-is-the-frontend-of-your-project-built-upon)
-
 
 ### Question 4: What templating languages do you use on this project?
 
@@ -148,7 +144,6 @@ Again we see frameworks like React and Vue.js enter the results.
 - [2016 results for question 4](./results-2016.md#question-4-what-templating-languages-do-you-use-on-this-project)
 - [2018 results for question 4](./results-2018.md#question-4-what-templating-languages-do-you-use-on-this-project)
 
-
 ### Question 5: What CSS pre-processor do you use on this project?
 
 Sass still has strong usage in 2018 but there is an introduction of CSS-in-JS libraries which have become more popular in 2018.
@@ -169,7 +164,6 @@ Sass still has strong usage in 2018 but there is an introduction of CSS-in-JS li
 
 - [2016 results for question 5](./results-2016.md#question-5-what-css-pre-processor-do-you-use-on-this-project)
 - [2018 results for question 5](./results-2018.md#question-5-what-css-pre-processor-do-you-use-on-this-project)
-
 
 ### Question 6: Which CSS architecture do you follow?
 
@@ -194,7 +188,6 @@ A lot of people are opting out of following a CSS architecture, of those that do
 - [2016 results for question 6](./results-2016.md#question-6-which-css-architecture-do-you-follow)
 - [2018 results for question 6](./results-2018.md#question-6-which-css-architecture-do-you-follow)
 
-
 ### Question 7: Does your project have its own design resources?
 
 More people have their own design resources, this could be due to the rise in popularity of design systems in 2018.
@@ -212,7 +205,6 @@ More people have their own design resources, this could be due to the rise in po
 
 - [2016 results for question 7](./results-2016.md#question-7-does-your-project-have-its-own-design-resources)
 - [2018 results for question 7](./results-2018.md#question-7-does-your-project-have-its-own-design-resources)
-
 
 ### Question 8: What frontend resources from GDS does your project use?
 
@@ -242,7 +234,6 @@ This year we also see people announce their own departmental resources, which ha
 
 - [2016 results for question 8](./results-2016.md#question-8-what-frontend-resources-from-gds-does-your-project-use)
 - [2018 results for question 8](./results-2018.md#question-8-what-frontend-resources-from-gds-does-your-project-use)
-
 
 ### Question 9: How are GOV.UK frontend resources integrated into your project?
 
@@ -277,7 +268,6 @@ We also feel for the people who responded with “Badly”!
 - [2016 results for question 9](./results-2016.md#question-9-how-are-govuk-frontend-resources-integrated-into-your-project)
 - [2018 results for question 9](./results-2018.md#question-9-how-are-govuk-frontend-resources-integrated-into-your-project)
 
-
 ### Question 10: How do you keep those resources up-to-date in your project?
 
 More people are using npm to keep their dependencies up-to-date, a new addition is “Dependency notification service” why open an issue or pull request on your repository.
@@ -306,3 +296,40 @@ More people are using npm to keep their dependencies up-to-date, a new addition 
 - [2016 results for question 10](./results-2016.md#question-10-how-do-you-keep-those-resources-up-to-date-in-your-project)
 - [2018 results for question 10](./results-2018.md#question-10-how-do-you-keep-those-resources-up-to-date-in-your-project)
 
+### Question 11: Are there any specific improvements you'd like to see in the frontend resources offered by GDS?
+
+See the results in detail for a better comparison
+
+#### Answers
+
+| Name | 2016 | 2018 |
+| --- | --- | --- |
+| Content Delivery Network (CDN) for assets | Yes | Yes |
+| more templating languages | Yes | Yes |
+| better documentation | Yes | Yes |
+| project scaffolds for different tech stacks | Yes | No |
+| more examples | Yes | No |
+| more components and patterns | Yes | No |
+| standards | Yes | No |
+| an improved Prototype Kit | Yes | No |
+| accessibility | Yes | N/A (Done) |
+| better code | Yes | N/A (Done) |
+| versioned components | Yes | N/A (Done) |
+| better support | Yes | N/A (Done) |
+| a single package and site | Yes | N/A (Done) |
+| a clear contribution model | Yes | N/A (Done) |
+| better JavaScript | Yes | N/A (Done) |
+| compiled assets including CSS | Yes | N/A (Done) |
+| simpler tools for less technical people | No | Yes |
+| authoring CSS rather than having to write more HTML | No | Yes |
+| less reliance on polyfills | No | Yes |
+| dont use BEM | No | Yes |
+| tools to help port GOV.UK Frontend | No | Yes |
+| use nunjucks extensions | No | Yes |
+| ruby gems | No | Yes |
+| adopt a form builder | No | Yes |
+
+#### Sources
+
+- [2016 results for question 11](./results-2016.md#question-11-are-there-any-specific-improvements-youd-like-to-see-in-the-frontend-resources-offered-by-gds)
+- [2018 results for question 11](./results-2018.md#question-11-are-there-any-specific-improvements-youd-like-to-see-in-the-frontend-resources-offered-by-gds)

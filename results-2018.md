@@ -1,6 +1,7 @@
 # Government Frontend Survey Results
 
 ## 2018
+
 ### Question 1: What department, agency or organisation do you work in?
 
 #### Answers
@@ -28,7 +29,6 @@
 | Office for National Statistics | 1 | 1.5% |
 | Local authority | 1 | 1.5% |
 | Gambling Commission | 1 | 1.5% |
-
 ### Question 2: What is your main role on this project?
 
 #### Answers
@@ -41,7 +41,6 @@
 | Backend development | 7 | 10.4% |
 | Technical architect | 3 | 4.5% |
 | Other | 1 | 1.5% |
-
 ### Question 3: What is the frontend of your project built upon?
 
 #### Answers
@@ -65,7 +64,6 @@
 | Vanilla JS | 1 | 1.1% |
 | Blade | 1 | 1.1% |
 | Microsoft Dynamics | 1 | 1.1% |
-
 ### Question 4: What templating languages do you use on this project?
 
 #### Answers
@@ -98,7 +96,6 @@
 | Freemarker | 1 | 1.1% |
 | JSP | 1 | 1.1% |
 | Razor | 1 | 1.1% |
-
 ### Question 5: What CSS pre-processor do you use on this project?
 
 #### Answers
@@ -111,7 +108,6 @@
 | Don't know | 1 | 1.4% |
 | styled-components | 1 | 1.4% |
 | Less | 1 | 1.4% |
-
 ### Question 6: Which CSS architecture do you follow?
 
 #### Answers
@@ -126,7 +122,6 @@
 | OOCSS | 2 | 2.6% |
 | SMACCS | 1 | 1.3% |
 | Atomic | 1 | 1.3% |
-
 ### Question 7: Does your project have its own design resources?
 
 #### Answers
@@ -136,7 +131,6 @@
 | Yes | 33 | 50.0% |
 | No | 29 | 43.9% |
 | In development | 4 | 6.1% |
-
 ### Question 8: What frontend resources from GDS does your project use?
 
 #### Answers
@@ -155,7 +149,6 @@
 | MOJ Pattern Library (an extension of the GOV.UK Design System) | 1 | 0.6% |
 | Assets Frontend | 1 | 0.6% |
 | Own | 1 | 0.6% |
-
 ### Question 9: How are GOV.UK frontend resources integrated into your project?
 
 #### Answers
@@ -174,7 +167,6 @@
 | CDN | 1 | 1.7% |
 | Github | 1 | 1.7% |
 | Package manager | 1 | 1.7% |
-
 ### Question 10: How do you keep those resources up-to-date in your project?
 
 #### Answers
@@ -189,3 +181,18 @@
 | We don't | 2 | 4.3% |
 | RSS | 1 | 2.2% |
 | When things break | 1 | 2.2% |
+### Question 11: Are there any specific improvements you'd like to see in the frontend resources offered by GDS?
+
+#### Answers
+
+- better documentation
+- ruby gems
+- more templating languages
+- Content Delivery Network (CDN) for assets
+- simpler tools for less technical people
+- adopt a form builder
+- less reliance on polyfills
+- dont use BEM
+- tools to help port GOV.UK Frontend
+- use nunjucks extensions
+- authoring CSS rather than having to write more HTML

@@ -1,6 +1,7 @@
 # Government Frontend Survey Results
 
 ## 2016
+
 ### Question 1: What department, agency or organisation do you work in?
 
 #### Answers
@@ -16,7 +17,6 @@
 | Companies House | 3 | 3.9% |
 | Student Loans Company | 2 | 2.6% |
 | DVLA | 2 | 2.6% |
-
 ### Question 2: What is your main role on this project?
 
 #### Answers
@@ -30,7 +30,6 @@
 | Tech lead | 5 | 5.6% |
 | Other | 5 | 5.6% |
 | Content | 1 | 1.1% |
-
 ### Question 3: What is the frontend of your project built upon?
 
 #### Answers
@@ -46,7 +45,6 @@
 | Angular | 4 | 3.9% |
 | Perl | 3 | 2.9% |
 | Don't know | 3 | 2.9% |
-
 ### Question 4: What templating languages do you use on this project?
 
 #### Answers
@@ -69,7 +67,6 @@
 | PHP | 2 | 1.7% |
 | Angular | 2 | 1.7% |
 | Twig | 1 | 0.8% |
-
 ### Question 5: What CSS pre-processor do you use on this project?
 
 #### Answers
@@ -81,7 +78,6 @@
 | Other | 5 | 5.6% |
 | Don't know | 4 | 4.5% |
 | Less | 2 | 2.2% |
-
 ### Question 6: Which CSS architecture do you follow?
 
 #### Answers
@@ -95,7 +91,6 @@
 | ITCSS | 3 | 2.9% |
 | OOCSS | 3 | 2.9% |
 | SMACCS | 1 | 1.0% |
-
 ### Question 7: Does your project have its own design resources?
 
 #### Answers
@@ -106,7 +101,6 @@
 | Yes | 19 | 31.1% |
 | Other | 5 | 8.2% |
 | In development | 4 | 6.6% |
-
 ### Question 8: What frontend resources from GDS does your project use?
 
 #### Answers
@@ -118,7 +112,6 @@
 | GOV.UK Template | 58 | 25.0% |
 | GOV.UK Prototype Kit | 37 | 15.9% |
 | Other | 6 | 2.6% |
-
 ### Question 9: How are GOV.UK frontend resources integrated into your project?
 
 #### Answers
@@ -134,7 +127,6 @@
 | Gulp | 2 | 2.8% |
 | Git | 2 | 2.8% |
 | Jenkins | 1 | 1.4% |
-
 ### Question 10: How do you keep those resources up-to-date in your project?
 
 #### Answers
@@ -148,3 +140,64 @@
 | Bundler | 7 | 12.5% |
 | Watch for changes | 3 | 5.4% |
 | Rarely | 1 | 1.8% |
+### Question 11: Are there any specific improvements you'd like to see in the frontend resources offered by GDS?
+
+#### Answers
+
+- better documentation
+  - guides for Rails and NPM
+  - simple upgrade path
+  - evidence-based components and patterns
+- a single package and site
+  - single package for Ruby, Node, Python
+  - one place to find it all
+- better code
+  - simpler, clearer SCSS
+  - refactored code
+  - composable classes
+  - no leaky styles
+  - modular components
+  - integration tests
+- more examples
+  - complex forms
+  - full page examples
+- a clear contribution model
+  - pull requests and comments via Github
+  - curation by GDS
+  - sharing of findings
+- more components and patterns
+  - patterns for form validation
+  - responsive tables
+  - tabs
+  - pagination
+  - dialogs
+  - loading
+  - collapsables
+  - accordions
+  - search
+  - alerts
+- accessibility
+  - accessible components that have been tested with assistive technology, guidance on testing
+- standards
+  - an agreed schema for components and css architecture standards. Probably BEM/ITCSS
+- better support
+  - reviews from GDS
+  - better comms
+  - more frontend meetups
+  - dependency version alerts
+  - being involved in decision making
+- more templating languages
+  - more language support
+  - handlebars
+- better JavaScript
+  - remove dependency on JQuery
+  - modular Javascript
+  - unit testing
+- an improved Prototype Kit
+  - hosting of prototypes
+  - form validation
+  - easier to transition from prototype to production
+- versioned components
+- compiled assets including CSS
+- Content Delivery Network (CDN) for assets
+- project scaffolds for different tech stacks

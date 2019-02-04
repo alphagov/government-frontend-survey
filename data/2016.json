@@ -119,7 +119,7 @@
   },
   {
     "id": 9,
-    "type": "open",
+    "type": "open-categorised",
     "question": "How are GOV.UK frontend resources integrated into your project?",
     "answers": {
       "Manually": 20,
@@ -135,7 +135,7 @@
   },
   {
     "id": 10,
-    "type": "open",
+    "type": "open-categorised",
     "question": "How do you keep those resources up-to-date in your project?",
     "answers": {
       "Manually": 14,
@@ -145,6 +145,82 @@
       "Bundler": 7,
       "Watch for changes": 3,
       "Rarely": 1
+    }
+  },
+  {
+    "id": 11,
+    "type": "open",
+    "question": "Are there any specific improvements you'd like to see in the frontend resources offered by GDS?",
+    "answers": {
+      "better documentation": [
+        "guides for Rails and NPM",
+        "simple upgrade path",
+        "evidence-based components and patterns"
+      ],
+      "a single package and site": [
+        "single package for Ruby, Node, Python",
+        "one place to find it all"
+      ],
+      "better code": [
+        "simpler, clearer SCSS",
+        "refactored code",
+        "composable classes",
+        "no leaky styles",
+        "modular components",
+        "integration tests"
+      ],
+      "more examples": [
+        "complex forms",
+        "full page examples"
+      ],
+      "a clear contribution model": [
+        "pull requests and comments via Github",
+        "curation by GDS",
+        "sharing of findings"
+      ],
+      "more components and patterns": [
+        "patterns for form validation",
+        "responsive tables",
+        "tabs",
+        "pagination",
+        "dialogs",
+        "loading",
+        "collapsables",
+        "accordions",
+        "search",
+        "alerts"
+      ],
+      "accessibility": [
+        "accessible components that have been tested with assistive technology, guidance on testing"
+      ],
+      "standards": [
+        "an agreed schema for components and css architecture standards. Probably BEM/ITCSS"
+      ],
+      "better support": [
+        "reviews from GDS",
+        "better comms",
+        "more frontend meetups",
+        "dependency version alerts",
+        "being involved in decision making"
+      ],
+      "more templating languages": [
+        "more language support",
+        "handlebars"
+      ],
+      "better JavaScript": [
+        "remove dependency on JQuery",
+        "modular Javascript",
+        "unit testing"
+      ],
+      "an improved Prototype Kit": [
+        "hosting of prototypes",
+        "form validation",
+        "easier to transition from prototype to production"
+      ],
+      "versioned components": true,
+      "compiled assets including CSS": true,
+      "Content Delivery Network (CDN) for assets": true,
+      "project scaffolds for different tech stacks": true
     }
   }
 ]

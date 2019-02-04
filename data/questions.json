@@ -41,12 +41,17 @@
   },
   {
     "id": 9,
-    "type": "open",
+    "type": "open-categorised",
     "question": "How are GOV.UK frontend resources integrated into your project?"
   },
   {
     "id": 10,
-    "type": "open",
+    "type": "open-categorised",
     "question": "How do you keep those resources up-to-date in your project?"
+  },
+  {
+    "id": 11,
+    "type": "open",
+    "question": "Are there any specific improvements you'd like to see in the frontend resources offered by GDS?"
   }
 ]
