@@ -1,5 +1,7 @@
 # Contributing
 
+The code in this repository is very messy as a one off but I've left it in this repository incase it's useful for anyone...
+
 ## How to prepare results
 
 Much of the results need to be manually cleaned up by hand.
