@@ -1,13 +1,11 @@
-# Government Frontend Survey Results
-
-## Comparison between 2016 and 2018
-### Question 1: What department, agency or organisation do you work in?
+# Government frontend survey comparison between 2016 and 2018
+## Question 1: What department, agency or organisation do you work in?
 
 MOJ, DWP, HMRC, Home Office still make up a big portion of responses.
 
 There’s also a lot more individuals in departments across Government responding.
 
-#### Answers
+### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -36,18 +34,18 @@ There’s also a lot more individuals in departments across Government respondin
 | Student Loans Company | 2.6% | N/A |
 | Companies House | 3.9% | N/A |
 
-#### Sources
+### Sources
 
 - [2016 results for question 1](./results-2016.md#question-1-what-department-agency-or-organisation-do-you-work-in)
 - [2018 results for question 1](./results-2018.md#question-1-what-department-agency-or-organisation-do-you-work-in)
 
-### Question 2: What is your main role on this project?
+## Question 2: What is your main role on this project?
 
 This year we removed the ‘Other development’ category as it was too vague.
 
 More people have selected ‘Backend development’ and ‘Full stack development’, this may be related to the wider industry too.
 
-#### Answers
+### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -61,16 +59,16 @@ More people have selected ‘Backend development’ and ‘Full stack developmen
 | Tech lead | 5.6% | N/A |
 | Other development | 19.1% | N/A |
 
-#### Sources
+### Sources
 
 - [2016 results for question 2](./results-2016.md#question-2-what-is-your-main-role-on-this-project)
 - [2018 results for question 2](./results-2018.md#question-2-what-is-your-main-role-on-this-project)
 
-### Question 3: What is the frontend of your project built upon?
+## Question 3: What is the frontend of your project built upon?
 
 Node.js, Ruby on Rails, Python have largely remained the same, this year we see more people declare their frontend libraries with React appearing at 10.3% and Vue.js moving ahead of jQuery at 3.4%
 
-#### Answers
+### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -95,18 +93,18 @@ Node.js, Ruby on Rails, Python have largely remained the same, this year we see 
 | Perl | 2.9% | N/A |
 | Angular | 3.9% | N/A |
 
-#### Sources
+### Sources
 
 - [2016 results for question 3](./results-2016.md#question-3-what-is-the-frontend-of-your-project-built-upon)
 - [2018 results for question 3](./results-2018.md#question-3-what-is-the-frontend-of-your-project-built-upon)
 
-### Question 4: What templating languages do you use on this project?
+## Question 4: What templating languages do you use on this project?
 
 More people are using Nunjucks, this is likely due to the GOV.UK Design System adopting Nunjucks to provide examples.
 
 Again we see frameworks like React and Vue.js enter the results.
 
-#### Answers
+### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -139,16 +137,16 @@ Again we see frameworks like React and Vue.js enter the results.
 | Other | 10.9% | N/A |
 | Angular | 1.7% | N/A |
 
-#### Sources
+### Sources
 
 - [2016 results for question 4](./results-2016.md#question-4-what-templating-languages-do-you-use-on-this-project)
 - [2018 results for question 4](./results-2018.md#question-4-what-templating-languages-do-you-use-on-this-project)
 
-### Question 5: What CSS pre-processor do you use on this project?
+## Question 5: What CSS pre-processor do you use on this project?
 
 Sass still has strong usage in 2018 but there is an introduction of CSS-in-JS libraries which have become more popular in 2018.
 
-#### Answers
+### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -160,16 +158,16 @@ Sass still has strong usage in 2018 but there is an introduction of CSS-in-JS li
 | Don't know | 4.5% | 1.4% |
 | Other | 5.6% | N/A |
 
-#### Sources
+### Sources
 
 - [2016 results for question 5](./results-2016.md#question-5-what-css-pre-processor-do-you-use-on-this-project)
 - [2018 results for question 5](./results-2018.md#question-5-what-css-pre-processor-do-you-use-on-this-project)
 
-### Question 6: Which CSS architecture do you follow?
+## Question 6: Which CSS architecture do you follow?
 
 A lot of people are opting out of following a CSS architecture, of those that do BEM is still popular again with CSS-in-JS joining the ranks.
 
-#### Answers
+### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -183,16 +181,16 @@ A lot of people are opting out of following a CSS architecture, of those that do
 | SMACCS | 1.0% | 1.3% |
 | Other | 8.8% | N/A |
 
-#### Sources
+### Sources
 
 - [2016 results for question 6](./results-2016.md#question-6-which-css-architecture-do-you-follow)
 - [2018 results for question 6](./results-2018.md#question-6-which-css-architecture-do-you-follow)
 
-### Question 7: Does your project have its own design resources?
+## Question 7: Does your project have its own design resources?
 
 More people have their own design resources, this could be due to the rise in popularity of design systems in 2018.
 
-#### Answers
+### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -201,18 +199,18 @@ More people have their own design resources, this could be due to the rise in po
 | In development | 6.6% | 6.1% |
 | Other | 8.2% | N/A |
 
-#### Sources
+### Sources
 
 - [2016 results for question 7](./results-2016.md#question-7-does-your-project-have-its-own-design-resources)
 - [2018 results for question 7](./results-2018.md#question-7-does-your-project-have-its-own-design-resources)
 
-### Question 8: What frontend resources from GDS does your project use?
+## Question 8: What frontend resources from GDS does your project use?
 
 One of the aims of the GOV.UK Design System was to merge GOV.UK Frontend Toolkit, Elements and Template into one package to be used, so we’re happy to see a reduced usage of these deprecated libraries.
 
 This year we also see people announce their own departmental resources, which have seen more investment.
 
-#### Answers
+### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -230,12 +228,12 @@ This year we also see people announce their own departmental resources, which ha
 | MOJ Pattern Library (an extension of the GOV.UK Design System) | N/A | 0.6% |
 | HMCTS Design System (HMCTS Frontend) | N/A | 0.6% |
 
-#### Sources
+### Sources
 
 - [2016 results for question 8](./results-2016.md#question-8-what-frontend-resources-from-gds-does-your-project-use)
 - [2018 results for question 8](./results-2018.md#question-8-what-frontend-resources-from-gds-does-your-project-use)
 
-### Question 9: How are GOV.UK frontend resources integrated into your project?
+## Question 9: How are GOV.UK frontend resources integrated into your project?
 
 In 2016 we saw over 50% (“npm”, “package manager”, “gem”) of people using package managers such as npm, this year we see around the same results but people are announcing npm as their primary package manager.
 
@@ -243,7 +241,7 @@ Gulp has more usage but Webpack is a new introduction, which may tie in with the
 
 We also feel for the people who responded with “Badly”!
 
-#### Answers
+### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -263,18 +261,18 @@ We also feel for the people who responded with “Badly”!
 | Git | 2.8% | N/A |
 | From scratch | 2.8% | N/A |
 
-#### Sources
+### Sources
 
 - [2016 results for question 9](./results-2016.md#question-9-how-are-govuk-frontend-resources-integrated-into-your-project)
 - [2018 results for question 9](./results-2018.md#question-9-how-are-govuk-frontend-resources-integrated-into-your-project)
 
-### Question 10: How do you keep those resources up-to-date in your project?
+## Question 10: How do you keep those resources up-to-date in your project?
 
 More people are using npm to keep their dependencies up-to-date, a new addition is “Dependency notification service” why open an issue or pull request on your repository.
 
 8.7% of people are “trying their best”, good luck!
 
-#### Answers
+### Answers
 
 | Name | Percentage (2016) | Percentage (2018) |
 | --- | --- | --- |
@@ -291,16 +289,16 @@ More people are using npm to keep their dependencies up-to-date, a new addition 
 | Bundler | 12.5% | N/A |
 | Periodic | 19.6% | N/A |
 
-#### Sources
+### Sources
 
 - [2016 results for question 10](./results-2016.md#question-10-how-do-you-keep-those-resources-up-to-date-in-your-project)
 - [2018 results for question 10](./results-2018.md#question-10-how-do-you-keep-those-resources-up-to-date-in-your-project)
 
-### Question 11: Are there any specific improvements you'd like to see in the frontend resources offered by GDS?
+## Question 11: Are there any specific improvements you'd like to see in the frontend resources offered by GDS?
 
 See the results in detail for a better comparison
 
-#### Answers
+### Answers
 
 | Name | 2016 | 2018 |
 | --- | --- | --- |
@@ -329,7 +327,7 @@ See the results in detail for a better comparison
 | ruby gems | No | Yes |
 | adopt a form builder | No | Yes |
 
-#### Sources
+### Sources
 
 - [2016 results for question 11](./results-2016.md#question-11-are-there-any-specific-improvements-youd-like-to-see-in-the-frontend-resources-offered-by-gds)
 - [2018 results for question 11](./results-2018.md#question-11-are-there-any-specific-improvements-youd-like-to-see-in-the-frontend-resources-offered-by-gds)

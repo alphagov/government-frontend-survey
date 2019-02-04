@@ -29,10 +29,7 @@ function generateResults (year) {
   
   
   let output = outdent`
-    # Government Frontend Survey Results
-
-    ## ${year}
-
+    # Government frontend survey results ${year}
   `
   
   responses.forEach(response => {
@@ -44,7 +41,7 @@ function generateResults (year) {
             const key = answer[0]
             const value = answer[1]
             let formattedValue = ''
-            if (typeof value !== 'boolean' && value) {
+            if (typeof value !== 'boolean' && value !== 'Done') {
               formattedValue = '\n' + value.map(v => `  - ${v}`).join('\n')
             }
             return outdent`
@@ -54,9 +51,9 @@ function generateResults (year) {
 
       output += outdent`
 
-        ### Question ${response.id}: ${response.question}
+        ## Question ${response.id}: ${response.question}
 
-        #### Answers
+        ### Answers
 
         ${formattedAnswers}
       `
@@ -81,9 +78,9 @@ function generateResults (year) {
           }).join('\n')
       output += outdent`
 
-        ### Question ${response.id}: ${response.question}
+        ## Question ${response.id}: ${response.question}
 
-        #### Answers
+        ### Answers
 
         | Name | Count | Percentage |
         | --- | --- | --- |

@@ -1,10 +1,7 @@
-# Government Frontend Survey Results
+# Government frontend survey results 2016
+## Question 1: What department, agency or organisation do you work in?
 
-## 2016
-
-### Question 1: What department, agency or organisation do you work in?
-
-#### Answers
+### Answers
 
 | Name | Count | Percentage |
 | --- | --- | --- |
@@ -17,9 +14,9 @@
 | Companies House | 3 | 3.9% |
 | Student Loans Company | 2 | 2.6% |
 | DVLA | 2 | 2.6% |
-### Question 2: What is your main role on this project?
+## Question 2: What is your main role on this project?
 
-#### Answers
+### Answers
 
 | Name | Count | Percentage |
 | --- | --- | --- |
@@ -30,9 +27,9 @@
 | Tech lead | 5 | 5.6% |
 | Other | 5 | 5.6% |
 | Content | 1 | 1.1% |
-### Question 3: What is the frontend of your project built upon?
+## Question 3: What is the frontend of your project built upon?
 
-#### Answers
+### Answers
 
 | Name | Count | Percentage |
 | --- | --- | --- |
@@ -45,9 +42,9 @@
 | Angular | 4 | 3.9% |
 | Perl | 3 | 2.9% |
 | Don't know | 3 | 2.9% |
-### Question 4: What templating languages do you use on this project?
+## Question 4: What templating languages do you use on this project?
 
-#### Answers
+### Answers
 
 | Name | Count | Percentage |
 | --- | --- | --- |
@@ -67,9 +64,9 @@
 | PHP | 2 | 1.7% |
 | Angular | 2 | 1.7% |
 | Twig | 1 | 0.8% |
-### Question 5: What CSS pre-processor do you use on this project?
+## Question 5: What CSS pre-processor do you use on this project?
 
-#### Answers
+### Answers
 
 | Name | Count | Percentage |
 | --- | --- | --- |
@@ -78,9 +75,9 @@
 | Other | 5 | 5.6% |
 | Don't know | 4 | 4.5% |
 | Less | 2 | 2.2% |
-### Question 6: Which CSS architecture do you follow?
+## Question 6: Which CSS architecture do you follow?
 
-#### Answers
+### Answers
 
 | Name | Count | Percentage |
 | --- | --- | --- |
@@ -91,9 +88,9 @@
 | ITCSS | 3 | 2.9% |
 | OOCSS | 3 | 2.9% |
 | SMACCS | 1 | 1.0% |
-### Question 7: Does your project have its own design resources?
+## Question 7: Does your project have its own design resources?
 
-#### Answers
+### Answers
 
 | Name | Count | Percentage |
 | --- | --- | --- |
@@ -101,9 +98,9 @@
 | Yes | 19 | 31.1% |
 | Other | 5 | 8.2% |
 | In development | 4 | 6.6% |
-### Question 8: What frontend resources from GDS does your project use?
+## Question 8: What frontend resources from GDS does your project use?
 
-#### Answers
+### Answers
 
 | Name | Count | Percentage |
 | --- | --- | --- |
@@ -112,9 +109,9 @@
 | GOV.UK Template | 58 | 25.0% |
 | GOV.UK Prototype Kit | 37 | 15.9% |
 | Other | 6 | 2.6% |
-### Question 9: How are GOV.UK frontend resources integrated into your project?
+## Question 9: How are GOV.UK frontend resources integrated into your project?
 
-#### Answers
+### Answers
 
 | Name | Count | Percentage |
 | --- | --- | --- |
@@ -127,9 +124,9 @@
 | Gulp | 2 | 2.8% |
 | Git | 2 | 2.8% |
 | Jenkins | 1 | 1.4% |
-### Question 10: How do you keep those resources up-to-date in your project?
+## Question 10: How do you keep those resources up-to-date in your project?
 
-#### Answers
+### Answers
 
 | Name | Count | Percentage |
 | --- | --- | --- |
@@ -140,9 +137,9 @@
 | Bundler | 7 | 12.5% |
 | Watch for changes | 3 | 5.4% |
 | Rarely | 1 | 1.8% |
-### Question 11: Are there any specific improvements you'd like to see in the frontend resources offered by GDS?
+## Question 11: Are there any specific improvements you'd like to see in the frontend resources offered by GDS?
 
-#### Answers
+### Answers
 
 - better documentation
   - guides for Rails and NPM

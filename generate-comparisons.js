@@ -76,9 +76,7 @@ function generateComparison (startYear, endYear) {
   const endResponses = getTotals(endData)  
   
   let output = outdent`
-    # Government Frontend Survey Results
-
-    ## Comparison between ${startYear} and ${endYear}
+    # Government frontend survey comparison between ${startYear} and ${endYear}
   `
 
 startResponses.forEach(response => {
@@ -186,15 +184,15 @@ startResponses.forEach(response => {
     }
     output += outdent`
 
-      ### Question ${response.id}: ${response.question}
+      ## Question ${response.id}: ${response.question}
 
       ${noteText}
 
-      #### Answers
+      ### Answers
 
       ${answers}
 
-      #### Sources
+      ### Sources
 
       - [${startYear} results for question ${response.id}](./results-${startYear}.md#${slug})
       - [${endYear} results for question ${response.id}](./results-${endYear}.md#${slug})
