@@ -4,7 +4,7 @@ The 2021 Frontend survey asks additional questions in a different order from the
 
 Respondents can skip any question and where users do skip, it's recorded as 'No answer'.
 
-## Q1. Thinking about your current project, how would you describe it? If you work on more than one project, pick the one you spend the most time on. Keep this project in mind for the rest of the survey.
+## Question 1: Thinking about your current project, how would you describe it? If you work on more than one project, pick the one you spend the most time on. Keep this project in mind for the rest of the survey.
 
 ### Answers
 
@@ -127,16 +127,16 @@ Answers are not shared.
 | None | 1 | 1.82% |
 | I do not know | 4 | 7.27% |
 
-## Question 8 & 9: Does your project need to support any legacy or non-standard browsers? These are usually browsers not included in the [list of browsers](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices#browsers-to-test-in-from-june-2021) to test in in the Service Manual. How long do you plan to continue supporting any legacy or non-standard browsers?
+## Question 8 and 9: Does your project need to support any legacy or non-standard browsers? These are usually browsers not included in the [list of browsers](https://www.gov.uk/service-manual/technology/designing-for-different-browsers-and-devices) to test in in the Service Manual. How long do you plan to continue supporting any legacy or non-standard browsers?
 
 ### Answers
 
 | Name | Count | Percentage | How long? |
 | --- | --- | --- | --- |
-| Internet Explorer 8 | 3 | 5.45% | 33% no decision67% continue for now |
-| Internet Explorer 9 | 6 | 10.91% | 16.7% up to 12 months50% no decision33% continue for now |
-| Internet Explorer 10 | 9 | 16.36% | 11% up to 12 months56% no decision33% continue for now |
-| Internet Explorer 11 | 23 | 41.82% | 4% up to 6 months9% up to 12 months44% no decision35% continue for now |
+| Internet Explorer 8 | 3 | 5.45% | 33% no decision <br> 67% continue for now |
+| Internet Explorer 9 | 6 | 10.91% | 16.7% up to 12 months <br> 50% no decision <br> 33% continue for now |
+| Internet Explorer 10 | 9 | 16.36% | 11% up to 12 months <br> 56% no decision <br> 33% continue for now |
+| Internet Explorer 11 | 23 | 41.82% | 4% up to 6 months <br> 9% up to 12 months <br> 44% no decision <br> 35% continue for now |
 | No, our project only needs to support browsers listed in the Service Manual | 25 | 45.45% | N/A |
 | I do not know | 9 | 16.36% | N/A |
 | unclear | 1 | 1.82% | N/A |
@@ -263,7 +263,7 @@ Answer are categorised
 | I do not know | 12 | 21.82% |
 | No answer | 18 | 32.73% |
 
-## Question 17 & 18: Ruby Sass and Lib Sass (including node-sass) are deprecated. Do you have any plans to migrate to Dart Sass? Can you explain why you haven't made any plans to migrate to Dart Sass?
+## Question 17 and 18: Ruby Sass and Lib Sass (including node-sass) are deprecated. Do you have any plans to migrate to Dart Sass? Can you explain why you haven't made any plans to migrate to Dart Sass?
 
 ### Answers
 
@@ -358,7 +358,7 @@ Answers are summarised
 - Use as little as possible
 - Typescript not JS
 - Trying to achieve smaller micro-frontend apps that render server side and bring in a minimal of progressively enhanced JS components
-- Reducing client side +custom JS from inherited project
+- Reducing client side JS and custom JS from inherited project
 - Use default GOV.UK / department's design system
 - JS approached based on progressive enhancement
 - JS is required for UI elements (filter, auto complete) to work well
